@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sarah Drake Allred instructional design project case study" />
+    <title>Project case study — Sarah Drake Allred</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#top">Skip to main content</a>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="wordmark" href="index.html#top" aria-label="Sarah Drake Allred home"><span class="wordmark-mark">SDA</span><span>Sarah Drake Allred</span></a>
+        <nav class="desktop-nav" aria-label="Main navigation"><a href="index.html#work">Work</a><a href="index.html#approach">Approach</a><a href="index.html#about">About</a></nav>
+        <a class="header-link" href="mailto:sarah.allred@example.com">Let’s connect <span aria-hidden="true">↗</span></a>
+      </header>
+
+      <main class="project-page" id="top">
+        <section class="project-intro section-pad">
+          <a class="back-link" href="index.html#work">← Back to selected work</a>
+          <p class="eyebrow" id="projectKicker">Featured project</p>
+          <h1 id="projectTitle">Project title</h1>
+          <p class="project-subtitle" id="projectSubtitle"></p>
+          <p class="project-lede" id="projectLede"></p>
+          <div class="project-intro-grid">
+            <article class="intro-block"><p class="intro-label">The problem</p><p id="projectProblem"></p></article>
+            <article class="intro-block"><p class="intro-label">The solution</p><p id="projectSolution"></p></article>
+            <article class="intro-block"><p class="intro-label">My role</p><p id="projectRole"></p></article>
+            <article class="intro-block"><p class="intro-label">Skills demonstrated</p><p id="projectSkills"></p></article>
+          </div>
+        </section>
+
+        <section class="project-process section-pad">
+          <p class="eyebrow">The process</p>
+          <h2 id="projectProcessHeading">How I approached the project</h2>
+          <h3 class="project-step-heading" id="projectStepHeading"></h3>
+          <div class="full-carousel" aria-live="polite" aria-label="Project process carousel">
+            <div class="full-carousel-body">
+              <button class="carousel-side-control carousel-side-control--previous" type="button" data-direction="prev" aria-label="Previous project image">←</button>
+              <div class="full-carousel-frame">
+                <a class="carousel-image-link" id="projectCarouselLink" href="assets/web/image1.jpg" data-lightbox-trigger aria-label="Enlarge the current project image"><img id="projectCarouselImage" src="assets/web/image1.jpg" alt="" /></a>
+                <div class="project-video-frame" id="projectVideoFrame" hidden>
+                  <iframe id="projectCarouselVideo" title="GEO onboarding project video" src="about:blank" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="full-carousel-caption"><p id="projectCarouselCaption"></p></div>
+              <button class="carousel-side-control carousel-side-control--next" type="button" data-direction="next" aria-label="Next project image">→</button>
+            </div>
+            <div class="full-carousel-controls"><span id="projectCarouselCount">01 / 09</span></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer"><span>© 2026 Sarah Drake Allred</span><span>Designed with curiosity &amp; care</span><a href="#top">Back to top ↑</a></footer>
+    </div>
+
+    <dialog class="image-lightbox" id="imageLightbox" aria-labelledby="lightboxLabel">
+      <div class="image-lightbox-inner">
+        <button class="image-lightbox-close" type="button" data-lightbox-close aria-label="Close enlarged image">×</button>
+        <p class="visually-hidden" id="lightboxLabel">Enlarged portfolio image</p>
+        <img id="lightboxImage" src="assets/web/image1.jpg" alt="" />
+      </div>
+    </dialog>
+
+    <script src="portfolio-content.js"></script>
+    <script src="project.js"></script>
+    <script src="lightbox.js"></script>
+  </body>
+</html>
