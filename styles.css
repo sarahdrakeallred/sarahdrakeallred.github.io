@@ -952,3 +952,19 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     font-size: 1.75rem;
   }
 }
+
+/* Final page-gutter adjustment: create more breathing room at the sides */
+.section-pad {
+  padding-inline: clamp(24px, 10vw, 176px);
+}
+
+.site-header {
+  padding-inline: clamp(22px, 7vw, 110px);
+}
+
+@media (max-width: 620px) {
+  .section-pad,
+  .site-header {
+    padding-inline: 22px;
+  }
+}
