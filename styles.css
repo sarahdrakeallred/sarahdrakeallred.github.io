@@ -2461,6 +2461,20 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   background: var(--paper);
 }
 
+/* Make the project title the clear primary heading. */
+@media (min-width: 901px) {
+  .project-page .project-intro h1 {
+    max-width: 980px;
+    font-size: clamp(3.8rem, 6.3vw, 6.5rem);
+    line-height: .94;
+  }
+
+  .project-page .project-process > h2,
+  .project-page .project-section-heading {
+    font-size: clamp(2.5rem, 4.1vw, 4.4rem);
+  }
+}
+
 @media (min-width: 701px) {
   .project-grid {
     display: grid !important;
