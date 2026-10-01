@@ -598,3 +598,8 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     height: clamp(210px, 58vw, 330px);
   }
 }
+.project-intro .intro-label {
+  font-size: 11px;
+  font-weight: 800 !important;
+  -webkit-text-stroke: 0.2px currentColor;
+}
