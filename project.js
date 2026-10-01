@@ -50,6 +50,12 @@ processItems.forEach((item) => {
   }
 });
 
+const lightboxItems = slides
+  .filter((item) => item.type === "image")
+  .map((item) => ({ src: item.src, alt: item.alt }));
+
+window.projectLightboxItems = lightboxItems;
+
 const image = document.querySelector("#projectCarouselImage");
 const imageLink = document.querySelector("#projectCarouselLink");
 const videoFrame = document.querySelector("#projectVideoFrame");
@@ -77,6 +83,7 @@ function renderSlide(nextIndex) {
     image.alt = current.alt;
     imageLink.href = current.src;
     imageLink.setAttribute("aria-label", `Enlarge ${current.alt}`);
+    imageLink.dataset.lightboxIndex = String(lightboxItems.findIndex((item) => item.src === current.src));
     video.src = "about:blank";
   }
 
@@ -85,6 +92,11 @@ function renderSlide(nextIndex) {
   caption.textContent = current.story;
   count.textContent = `${String(currentIndex + 1).padStart(2, "0")} / ${String(slides.length).padStart(2, "0")}`;
 }
+
+window.setProjectSlideBySource = (source) => {
+  const slideIndex = slides.findIndex((item) => item.type === "image" && item.src === source);
+  if (slideIndex >= 0) renderSlide(slideIndex);
+};
 
 document.querySelectorAll("[data-direction]").forEach((button) => {
   button.addEventListener("click", () => {

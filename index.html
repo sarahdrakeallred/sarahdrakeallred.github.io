@@ -133,8 +133,11 @@
     <dialog class="image-lightbox" id="imageLightbox" aria-labelledby="lightboxLabel">
       <div class="image-lightbox-inner">
         <button class="image-lightbox-close" type="button" data-lightbox-close aria-label="Close enlarged image">×</button>
+        <button class="image-lightbox-nav image-lightbox-nav--previous" type="button" data-lightbox-prev aria-label="Previous enlarged image">←</button>
         <p class="visually-hidden" id="lightboxLabel">Enlarged portfolio image</p>
-        <img id="lightboxImage" src="assets/web/image1.jpg" alt="" />
+        <img id="lightboxImage" class="image-lightbox-image" src="assets/web/image1.jpg" alt="" tabindex="0" role="button" aria-label="Zoom image" />
+        <button class="image-lightbox-nav image-lightbox-nav--next" type="button" data-lightbox-next aria-label="Next enlarged image">→</button>
+        <span class="image-lightbox-count" id="lightboxCount" aria-live="polite"></span>
       </div>
     </dialog>
 
