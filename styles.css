@@ -480,3 +480,69 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     padding: 8px;
   }
 }
+
+/* Final carousel controls: stable bottom row for every visual */
+.full-carousel-body {
+  grid-template-columns: minmax(0, 1.08fr) minmax(280px, .92fr);
+  grid-template-areas: "visual caption";
+  align-items: stretch;
+}
+
+.full-carousel-body .carousel-image-link { grid-area: visual; }
+.full-carousel-body .full-carousel-caption { grid-area: caption; }
+
+.full-carousel-controls {
+  display: grid;
+  grid-template-columns: 48px 1fr 48px;
+  align-items: center;
+  gap: clamp(14px, 2.2vw, 34px);
+  min-height: 48px;
+  margin-top: 20px;
+  padding-top: 0;
+}
+
+.full-carousel-controls .carousel-side-control {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  font-size: 21px;
+  transition: background .2s ease, color .2s ease;
+}
+
+.full-carousel-controls .carousel-side-control:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.full-carousel-controls span {
+  justify-self: center;
+}
+
+@media (max-width: 900px) {
+  .full-carousel-body {
+    grid-template-columns: 1fr;
+    grid-template-areas: "visual" "caption";
+    gap: 0;
+  }
+
+  .full-carousel-controls {
+    grid-template-columns: 44px 1fr 44px;
+    gap: 18px;
+  }
+
+  .full-carousel-controls .carousel-side-control {
+    width: 44px;
+    height: 44px;
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 620px) {
+  .full-carousel-controls {
+    margin-top: 18px;
+  }
+}
