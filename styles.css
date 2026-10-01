@@ -1098,3 +1098,28 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     gap: 88px;
   }
 }
+
+/* Slightly smaller homepage project thumbnails for more white space */
+.project-thumb {
+  height: clamp(240px, 20vw, 275px);
+}
+
+@media (max-width: 900px) {
+  .project-thumb {
+    height: 250px;
+  }
+}
+
+@media (max-width: 620px) {
+  .project-thumb {
+    height: 235px;
+  }
+}
+
+/* Bring the featured GEO block into the same lighter visual rhythm as the grid */
+@media (min-width: 901px) {
+  .featured-project {
+    width: calc(100% - clamp(32px, 5vw, 72px));
+    margin-inline: auto;
+  }
+}
