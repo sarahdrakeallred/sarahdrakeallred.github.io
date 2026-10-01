@@ -129,6 +129,10 @@ function stabilizeCarouselHeight() {
     "--carousel-body-height",
     `${Math.ceil(Math.max(tallestCaption, visualHeight))}px`
   );
+  carouselBody.style.setProperty(
+    "--carousel-caption-height",
+    `${Math.ceil(tallestCaption)}px`
+  );
   measurement.remove();
 }
 
