@@ -612,7 +612,7 @@ window.portfolioContent = {
         },
         {
           "type": "image",
-          "src": "assets/web/image35-white-background.jpg",
+          "src": "assets/web/image35-original-white-background.png",
           "alt": "Designing the mobile app prototype",
           "caption": "Designing the mobile app prototype"
         },
