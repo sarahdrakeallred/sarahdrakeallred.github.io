@@ -619,6 +619,32 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   }
 }
 
+/* Refine desktop process proportions: larger visual, tighter text block */
+@media (min-width: 901px) {
+  .project-process {
+    padding-top: clamp(52px, 5vw, 68px);
+    padding-bottom: clamp(52px, 5vw, 72px);
+  }
+
+  .full-carousel-body {
+    align-items: start;
+  }
+
+  .full-carousel-body .full-carousel-frame {
+    height: clamp(280px, 31vw, 460px);
+  }
+
+  .full-carousel-body .full-carousel-caption {
+    min-height: 0;
+    align-self: start;
+    padding: 14px 0;
+  }
+
+  .full-carousel-controls {
+    margin-top: 14px;
+  }
+}
+
 /* Enlarged-image navigation and click-to-zoom */
 .image-lightbox-inner {
   min-height: min(78vh, 760px);
@@ -1237,11 +1263,63 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   }
 }
 
+/* Final desktop process balance: larger visual and tighter caption block. */
+@media (min-width: 901px) {
+  .project-page .project-process {
+    padding-top: 56px;
+    padding-bottom: 60px;
+  }
+
+  .project-page .full-carousel-body {
+    align-items: start;
+  }
+
+  .project-page .full-carousel-body .full-carousel-frame {
+    height: clamp(300px, 27vw, 420px);
+  }
+
+  .project-page .full-carousel-body .full-carousel-caption {
+    min-height: 0;
+    align-self: start;
+    padding: 10px 0;
+  }
+
+  .project-page .full-carousel-controls {
+    margin-top: 12px;
+  }
+}
+
+/* Final desktop process balance: larger visual and tighter caption block. */
+@media (min-width: 901px) {
+  .project-page .project-process {
+    padding-top: 56px;
+    padding-bottom: 60px;
+  }
+
+  .project-page .full-carousel-body {
+    align-items: start;
+  }
+
+  .project-page .full-carousel-body .full-carousel-frame {
+    height: clamp(300px, 27vw, 420px);
+  }
+
+  .project-page .full-carousel-body .full-carousel-caption {
+    min-height: 0;
+    align-self: start;
+    padding: 10px 0;
+  }
+
+  .project-page .full-carousel-controls {
+    margin-top: 12px;
+  }
+}
+
 /* Final project-page cleanup: keep the process story compact and balanced. */
 @media (min-width: 901px) {
   .project-page .project-process {
-    padding-top: 78px;
-    padding-bottom: 82px;
+    padding-top: 56px;
+    padding-bottom: 60px;
   }
 
   .project-page .project-process > h2,
@@ -1261,21 +1339,26 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     grid-template-columns: minmax(0, 1.25fr) minmax(260px, .75fr);
     gap: 34px;
     min-height: 0;
-    align-items: stretch;
+    align-items: start;
   }
 
   .project-page .full-carousel-body .full-carousel-frame {
-    height: clamp(260px, 24vw, 360px);
+    height: clamp(300px, 27vw, 420px);
   }
 
   .project-page .full-carousel-body .full-carousel-caption {
     min-height: 0;
-    padding: 18px 0;
+    align-self: start;
+    padding: 10px 0;
   }
 
   .project-page .full-carousel-body .full-carousel-caption p:last-child {
     font-size: clamp(.95rem, 1.15vw, 1.1rem);
     line-height: 1.6;
+  }
+
+  .project-page .full-carousel-controls {
+    margin-top: 12px;
   }
 }
 
@@ -2399,8 +2482,8 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 /* Last project-page override: keep the process unit compact and readable. */
 @media (min-width: 901px) {
   .project-page .project-process {
-    padding-top: 78px;
-    padding-bottom: 82px;
+    padding-top: 56px;
+    padding-bottom: 60px;
   }
 
   .project-page .project-process > h2,
@@ -2420,21 +2503,26 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     grid-template-columns: minmax(0, 1.25fr) minmax(260px, .75fr);
     gap: 34px;
     min-height: 0;
-    align-items: stretch;
+    align-items: start;
   }
 
   .project-page .full-carousel-body .full-carousel-frame {
-    height: clamp(260px, 24vw, 360px);
+    height: clamp(300px, 27vw, 420px);
   }
 
   .project-page .full-carousel-body .full-carousel-caption {
     min-height: 0;
-    padding: 18px 0;
+    align-self: start;
+    padding: 10px 0;
   }
 
   .project-page .full-carousel-body .full-carousel-caption p:last-child {
     font-size: clamp(.95rem, 1.15vw, 1.1rem);
     line-height: 1.6;
+  }
+
+  .project-page .full-carousel-controls {
+    margin-top: 12px;
   }
 }
 
