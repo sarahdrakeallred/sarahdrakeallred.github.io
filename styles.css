@@ -2593,6 +2593,11 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     padding-top: 25px;
     border-top: 1px solid var(--line);
   }
+
+  .project-page .intro-block:nth-child(2n):nth-child(n + 3) {
+    margin-left: -24px;
+    padding-left: 48px;
+  }
 }
 
 /* Make the project title the clear primary heading. */
