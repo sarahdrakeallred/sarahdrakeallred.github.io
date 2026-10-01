@@ -2571,6 +2571,30 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   line-height: 1.65;
 }
 
+/* Improve readability of the four project overview blocks. */
+@media (min-width: 901px) {
+  .project-page .project-intro-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 0;
+  }
+
+  .project-page .intro-block {
+    padding: 25px 24px 24px 0;
+    border-right: 1px solid var(--line);
+  }
+
+  .project-page .intro-block:nth-child(2n) {
+    padding-right: 0;
+    padding-left: 24px;
+    border-right: 0;
+  }
+
+  .project-page .intro-block:nth-child(n + 3) {
+    padding-top: 25px;
+    border-top: 1px solid var(--line);
+  }
+}
+
 /* Make the project title the clear primary heading. */
 @media (min-width: 901px) {
   .project-page .project-intro h1 {
