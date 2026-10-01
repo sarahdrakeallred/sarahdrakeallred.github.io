@@ -570,6 +570,7 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 .full-carousel-body {
   grid-template-columns: minmax(0, 1.3fr) minmax(260px, .7fr);
   gap: clamp(24px, 4vw, 56px);
+  min-height: var(--carousel-body-height, 0px);
 }
 
 .full-carousel-body .full-carousel-frame {
