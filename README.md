@@ -1,8 +1,8 @@
 # Sarah Drake Allred Portfolio
 
-A responsive, single-page portfolio website starter for Sarah Drake Allred’s instructional design portfolio.
+A responsive portfolio website for Sarah Drake Allred’s instructional design portfolio.
 
-The project now includes the narrative and all 35 artifact images from `Portfolio Narrative and Visuals.docx`. Each project links to a dedicated full-size case-study page with the project introduction, problem, solution, role, skills, an image-led process carousel, and the full uploaded narrative.
+The project includes the narrative and all 35 artifact images from `Portfolio Narrative and Visuals.docx`. Each project links to a dedicated full-size case-study page with the project introduction, problem, solution, role, skills, an image-led process carousel, and the full uploaded narrative. It also includes a standalone contact page with Sarah’s email address and LinkedIn profile.
 
 ## Preview locally
 
@@ -14,11 +14,10 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
-## First content updates to make
+## Future content updates
 
-- Replace the placeholder email address in `index.html`.
 - Add direct links to the GEO Onboarding Course and other finished artifacts where appropriate.
-- Add a résumé PDF and change the header link when the file is ready.
+- Add a résumé PDF and link to it from the contact page when the file is ready.
 
 ## Accessibility notes
 
