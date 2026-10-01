@@ -1123,3 +1123,36 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     margin-inline: auto;
   }
 }
+
+/* Compact the four-card homepage grid so more work appears in one view */
+@media (min-width: 901px) {
+  .project-grid {
+    row-gap: 76px;
+  }
+
+  .project-thumb {
+    height: clamp(215px, 17vw, 240px);
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .project-grid {
+    row-gap: 72px;
+  }
+
+  .project-thumb {
+    height: 225px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 620px) {
+  .project-grid {
+    row-gap: 64px;
+  }
+
+  .project-thumb {
+    height: 210px;
+  }
+}
