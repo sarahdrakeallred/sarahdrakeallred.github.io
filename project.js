@@ -97,45 +97,6 @@ function renderSlide(nextIndex) {
   count.textContent = `${String(currentIndex + 1).padStart(2, "0")} / ${String(slides.length).padStart(2, "0")}`;
 }
 
-function stabilizeCarouselHeight() {
-  const carouselBody = document.querySelector(".full-carousel-body");
-  const captionBox = document.querySelector(".full-carousel-caption");
-  if (!carouselBody || !captionBox || !slides.length) return;
-
-  const captionWidth = captionBox.getBoundingClientRect().width;
-  if (!captionWidth) return;
-
-  const measurement = captionBox.cloneNode(true);
-  const measurementText = measurement.querySelector("p");
-  measurement.removeAttribute("id");
-  measurement.style.position = "absolute";
-  measurement.style.left = "-9999px";
-  measurement.style.top = "0";
-  measurement.style.width = `${captionWidth}px`;
-  measurement.style.height = "auto";
-  measurement.style.minHeight = "0";
-  measurement.style.display = "block";
-  measurement.style.visibility = "hidden";
-  measurement.style.pointerEvents = "none";
-  document.body.appendChild(measurement);
-
-  const tallestCaption = Math.max(...slides.map((slide) => {
-    measurementText.textContent = slide.story || "";
-    return measurement.getBoundingClientRect().height;
-  }));
-  const visualHeight = carouselBody.querySelector(".full-carousel-frame")?.getBoundingClientRect().height || 0;
-
-  carouselBody.style.setProperty(
-    "--carousel-body-height",
-    `${Math.ceil(Math.max(tallestCaption, visualHeight))}px`
-  );
-  carouselBody.style.setProperty(
-    "--carousel-caption-height",
-    `${Math.ceil(tallestCaption)}px`
-  );
-  measurement.remove();
-}
-
 window.setProjectSlideBySource = (source) => {
   const slideIndex = slides.findIndex((item) => item.type === "image" && item.src === source);
   if (slideIndex >= 0) renderSlide(slideIndex);
@@ -148,13 +109,6 @@ document.querySelectorAll("[data-direction]").forEach((button) => {
 });
 
 renderSlide(0);
-stabilizeCarouselHeight();
-
-let resizeFrame;
-window.addEventListener("resize", () => {
-  cancelAnimationFrame(resizeFrame);
-  resizeFrame = requestAnimationFrame(stabilizeCarouselHeight);
-});
 
 function renderExtendedSections() {
   const finalSolution = document.querySelector("#projectFinalSolution");
