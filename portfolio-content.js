@@ -404,7 +404,7 @@ window.portfolioContent = {
         "Learner agency"
       ],
       "id": "pc",
-      "title": "From an Entrepreneurial Group Project to a Community Problem-Solving Experience",
+      "title": "From Group Work to Individual Problem-Solving",
       "subtitle": "Redesigning the PC102 Course Project",
       "lede": "As part of an advanced instructional design course, I helped redesign the major project within BYU-Pathway’s PathwayConnect 102 course. Historically, the project emphasized group entrepreneurship. Our team developed a proposal for an individual, community-based project in which students would identify a meaningful need, develop and test a potential solution, communicate their results, and reflect on what they learned.",
       "content": [
