@@ -1156,3 +1156,16 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     height: 210px;
   }
 }
+
+/* Preserve the complete homepage images while scaling them into the smaller cards */
+.project-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f1ef;
+}
+
+.project-thumb-image {
+  object-fit: contain;
+  background: #f1f1ef;
+}
