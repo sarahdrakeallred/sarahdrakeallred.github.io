@@ -105,7 +105,7 @@ h1 em, h2 em, .project-thumb em { color: var(--orange); font-style: normal; }
 }
 
 /* Artifact-led carousel layer */
-.showcase-carousel { position: absolute; top: 18%; left: 7%; width: 86%; transform: rotate(-3deg); }
+.showcase-carousel { position: absolute; top: 18%; left: 7%; width: 86%; transform: none; }
 .showcase-image-link, .project-thumb-link, .carousel-image-link { display: block; color: inherit; text-decoration: none; }
 .showcase-frame { height: 310px; padding: 11px; background: var(--cream); box-shadow: 23px 28px 0 rgba(25,61,58,.22); }
 .showcase-frame img { width: 100%; height: 100%; display: block; object-fit: contain; background: #fff; }
