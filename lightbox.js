@@ -16,13 +16,43 @@ if (lightbox) {
       }));
   let activeIndex = 0;
   let isZoomed = false;
+  let isDragging = false;
+  let didDrag = false;
+  let dragStartX = 0;
+  let dragStartY = 0;
+  let panX = 0;
+  let panY = 0;
+
+  function getPanLimits() {
+    const container = lightboxImage.parentElement.getBoundingClientRect();
+    const scale = 2.25;
+    return {
+      x: Math.max(0, (lightboxImage.offsetWidth * scale - container.width) / 2),
+      y: Math.max(0, (lightboxImage.offsetHeight * scale - container.height) / 2)
+    };
+  }
+
+  function applyPan() {
+    const limits = getPanLimits();
+    panX = Math.max(-limits.x, Math.min(limits.x, panX));
+    panY = Math.max(-limits.y, Math.min(limits.y, panY));
+    lightboxImage.style.setProperty("--pan-x", `${panX}px`);
+    lightboxImage.style.setProperty("--pan-y", `${panY}px`);
+  }
 
   function resetZoom() {
     isZoomed = false;
+    isDragging = false;
+    didDrag = false;
+    panX = 0;
+    panY = 0;
     lightboxImage.classList.remove("is-zoomed");
+    lightboxImage.classList.remove("is-dragging");
     lightboxImage.style.removeProperty("--zoom-x");
     lightboxImage.style.removeProperty("--zoom-y");
-    lightboxImage.setAttribute("aria-label", "Zoom image");
+    lightboxImage.style.removeProperty("--pan-x");
+    lightboxImage.style.removeProperty("--pan-y");
+    lightboxImage.setAttribute("aria-label", "Zoom image. Click to zoom in.");
   }
 
   function renderLightboxImage(nextIndex) {
@@ -46,7 +76,7 @@ if (lightbox) {
       lightboxImage.style.setProperty("--zoom-y", `${Math.max(0, Math.min(100, y))}%`);
       isZoomed = true;
       lightboxImage.classList.add("is-zoomed");
-      lightboxImage.setAttribute("aria-label", "Reset image zoom");
+      lightboxImage.setAttribute("aria-label", "Zoomed image. Drag to pan or click to reset zoom.");
     } else {
       resetZoom();
     }
@@ -81,11 +111,50 @@ if (lightbox) {
   closeButton.addEventListener("click", () => lightbox.close());
 
   lightboxImage.addEventListener("click", (event) => {
+    if (didDrag) {
+      event.preventDefault();
+      didDrag = false;
+      return;
+    }
     const bounds = lightboxImage.getBoundingClientRect();
     const x = ((event.clientX - bounds.left) / bounds.width) * 100;
     const y = ((event.clientY - bounds.top) / bounds.height) * 100;
     toggleZoom(x, y);
   });
+
+  lightboxImage.addEventListener("pointerdown", (event) => {
+    if (!isZoomed) return;
+    isDragging = true;
+    didDrag = false;
+    dragStartX = event.clientX;
+    dragStartY = event.clientY;
+    lightboxImage.classList.add("is-dragging");
+    lightboxImage.setPointerCapture?.(event.pointerId);
+  });
+
+  lightboxImage.addEventListener("pointermove", (event) => {
+    if (!isDragging || !isZoomed) return;
+    const deltaX = event.clientX - dragStartX;
+    const deltaY = event.clientY - dragStartY;
+    if (!didDrag && Math.hypot(deltaX, deltaY) > 4) didDrag = true;
+    if (!didDrag) return;
+    panX += deltaX;
+    panY += deltaY;
+    dragStartX = event.clientX;
+    dragStartY = event.clientY;
+    applyPan();
+    event.preventDefault();
+  });
+
+  function endDrag(event) {
+    if (!isDragging) return;
+    isDragging = false;
+    lightboxImage.classList.remove("is-dragging");
+    lightboxImage.releasePointerCapture?.(event.pointerId);
+  }
+
+  lightboxImage.addEventListener("pointerup", endDrag);
+  lightboxImage.addEventListener("pointercancel", endDrag);
 
   lightboxImage.addEventListener("keydown", (event) => {
     if (event.key === "Enter" || event.key === " ") {
