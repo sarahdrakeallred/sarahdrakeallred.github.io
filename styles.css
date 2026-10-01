@@ -1009,6 +1009,17 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 .project-thumb {
   height: 170px;
   margin-bottom: 16px;
+  background: #f3f3f1;
+}
+
+.project-thumb-image {
+  padding: 8px;
+  object-fit: contain;
+  background: #f3f3f1;
+}
+
+.project-card:hover .project-thumb-image {
+  transform: none;
 }
 
 .project-card h3 {
