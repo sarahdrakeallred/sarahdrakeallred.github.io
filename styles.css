@@ -2561,6 +2561,16 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   background: var(--paper);
 }
 
+/* Keep all project-page body copy at the same readable size. */
+.project-page .project-lede,
+.project-page .intro-block p:last-child,
+.project-page .full-carousel-caption p:last-child,
+.project-page .project-support-copy p,
+.project-page .project-lesson {
+  font-size: 16px;
+  line-height: 1.65;
+}
+
 /* Make the project title the clear primary heading. */
 @media (min-width: 901px) {
   .project-page .project-intro h1 {
