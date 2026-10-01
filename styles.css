@@ -23,7 +23,7 @@ button { cursor: pointer; }
 .site-shell { overflow: hidden; }
 .site-header { height: 82px; display: flex; align-items: center; justify-content: space-between; padding: 0 5.5vw; border-bottom: 1px solid var(--line); background: rgba(244,242,237,.88); backdrop-filter: blur(12px); position: sticky; top: 0; z-index: 10; }
 .wordmark { display: inline-flex; align-items: center; gap: 11px; font-size: 14px; font-weight: 600; letter-spacing: -.02em; }
-.wordmark-mark { display: grid; place-items: center; width: 33px; height: 33px; background: var(--ink); color: var(--paper); font: 700 11px var(--mono); letter-spacing: -.08em; }
+.wordmark-mark { display: grid; place-items: center; width: 33px; height: 33px; background: var(--ink); color: var(--paper); font: 900 11px var(--mono); letter-spacing: -.08em; }
 .desktop-nav { display: flex; gap: 34px; font-size: 13px; color: #53605e; }
 .desktop-nav a, .header-link, .text-link, .project-link { transition: color .2s ease, opacity .2s ease; }
 .desktop-nav a:hover, .header-link:hover, .text-link:hover, .project-link:hover { color: var(--orange); }
