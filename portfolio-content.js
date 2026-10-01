@@ -136,8 +136,9 @@ window.portfolioContent = {
           "text": "The final solution combined a four-module, twelve-lesson Rise course with videos, an organizational chart, a Reference Guide, and a shareable Rise link. Together, these pieces created a shared onboarding foundation while leaving detailed, role-specific training to managers and teams."
         },
         {
-          "type": "text",
-          "text": "View the GEO Onboarding Course"
+          "type": "link",
+          "href": "https://share.articulate.com/NNLQYSolmRT7Opr1YJW7i",
+          "label": "View the GEO Onboarding Course"
         },
         {
           "type": "text",

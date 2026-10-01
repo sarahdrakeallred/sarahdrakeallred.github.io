@@ -273,6 +273,24 @@ h1 em, h2 em { color: var(--orange); }
   .project-intro h1 { font-size: clamp(3.6rem, 16vw, 6.5rem); }
 }
 
+/* Final solution and design lessons sections */
+.project-support,
+.project-lessons { border-top: 1px solid var(--line); }
+.project-support { background: var(--paper); }
+.project-lessons { background: var(--paper-dark); }
+.project-support-copy,
+.project-lesson-list { max-width: 900px; }
+.project-support-copy p { max-width: 820px; margin-bottom: 28px; color: var(--muted); font-size: 17px; line-height: 1.7; }
+.project-support-link { display: inline-flex; color: var(--ink); border-bottom: 1px solid var(--ink); padding-bottom: 4px; font-weight: 600; }
+.project-support-link:hover { color: var(--orange); border-color: var(--orange); }
+.project-lesson-list { display: grid; gap: 24px; }
+.project-lesson { max-width: 850px; margin: 0; color: var(--muted); font-size: 17px; line-height: 1.7; }
+.project-lesson strong { color: var(--ink); font-weight: 700; }
+@media (max-width: 620px) {
+  .project-support-copy p,
+  .project-lesson { font-size: 16px; line-height: 1.65; }
+}
+
 /* Canva-inspired type and color match */
 :root {
   --ink: #111111;

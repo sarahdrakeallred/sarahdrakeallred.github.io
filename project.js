@@ -5,6 +5,8 @@ const project = projects[requestedProject] || projects.geo;
 const contentItems = project.content;
 const textItems = contentItems.filter((item) => item.type === "text");
 const processHeadingItem = contentItems.find((item) => item.type === "text" && /^How (I|we) approached the project$/i.test(item.text));
+const finalSolutionHeadingIndex = contentItems.findIndex((item) => item.type === "text" && item.text.trim().toLowerCase() === "the final solution");
+const lessonsHeadingIndex = contentItems.findIndex((item) => item.type === "text" && item.text.trim().toLowerCase() === "design lessons learned");
 
 document.title = `${project.title} — Sarah Drake Allred`;
 document.querySelector("#projectKicker").textContent = project.kicker;
@@ -24,7 +26,9 @@ document.querySelector("#projectRole").textContent = textForLabel("My role");
 document.querySelector("#projectSkills").textContent = textForLabel("Skills demonstrated");
 
 const processStart = contentItems.indexOf(processHeadingItem);
-const processItems = processStart >= 0 ? contentItems.slice(processStart + 1) : contentItems;
+const processEndCandidates = [finalSolutionHeadingIndex, lessonsHeadingIndex].filter((index) => index >= 0);
+const processEnd = processEndCandidates.length ? Math.min(...processEndCandidates) : contentItems.length;
+const processItems = processStart >= 0 ? contentItems.slice(processStart + 1, processEnd) : contentItems;
 const slides = [];
 let pendingStory = "";
 
@@ -105,3 +109,50 @@ document.querySelectorAll("[data-direction]").forEach((button) => {
 });
 
 renderSlide(0);
+
+function renderExtendedSections() {
+  const finalSolution = document.querySelector("#projectFinalSolution");
+  const finalSolutionText = document.querySelector("#projectFinalSolutionText");
+  const finalSolutionLink = document.querySelector("#projectFinalSolutionLink");
+  const lessons = document.querySelector("#projectLessons");
+  const lessonsList = document.querySelector("#projectLessonsList");
+
+  const finalSolutionItems = finalSolutionHeadingIndex >= 0
+    ? contentItems.slice(finalSolutionHeadingIndex + 1, lessonsHeadingIndex >= 0 ? lessonsHeadingIndex : contentItems.length)
+    : [];
+  const finalSolutionParagraph = finalSolutionItems.find((item) => item.type === "text");
+  const finalSolutionLinkItem = finalSolutionItems.find((item) => item.type === "link");
+
+  if (finalSolutionParagraph || finalSolutionLinkItem) {
+    finalSolution.hidden = false;
+    finalSolutionText.textContent = finalSolutionParagraph?.text || "";
+    if (finalSolutionLinkItem) {
+      finalSolutionLink.hidden = false;
+      finalSolutionLink.href = finalSolutionLinkItem.href;
+      finalSolutionLink.textContent = `${finalSolutionLinkItem.label} ↗`;
+    }
+  }
+
+  const lessonItems = lessonsHeadingIndex >= 0
+    ? contentItems.slice(lessonsHeadingIndex + 1).filter((item) => item.type === "text")
+    : [];
+
+  if (lessonItems.length) {
+    lessons.hidden = false;
+    lessonItems.forEach((item) => {
+      const paragraph = document.createElement("p");
+      paragraph.className = "project-lesson";
+      const firstPeriod = item.text.indexOf(".");
+      if (firstPeriod > -1) {
+        const lead = document.createElement("strong");
+        lead.textContent = item.text.slice(0, firstPeriod + 1);
+        paragraph.append(lead, document.createTextNode(item.text.slice(firstPeriod + 1)));
+      } else {
+        paragraph.textContent = item.text;
+      }
+      lessonsList.appendChild(paragraph);
+    });
+  }
+}
+
+renderExtendedSections();
