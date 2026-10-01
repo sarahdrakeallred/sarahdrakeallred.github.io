@@ -1176,6 +1176,19 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   }
 }
 
+/* About section headshot */
+.about-portrait {
+  overflow: hidden;
+  background: #f1f1ef;
+}
+
+.about-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 /* Approved proportionate scale: preserve typography while keeping the layouts compact. */
 .section-pad {
   padding-inline: clamp(24px, 7vw, 112px);
