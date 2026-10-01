@@ -1421,3 +1421,26 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     font-size: 12px;
   }
 }
+
+/* Narrow and center the light-gray image containers inside each project card */
+@media (min-width: 901px) {
+  .project-thumb {
+    width: 86%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .project-thumb {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .project-thumb {
+    width: 92%;
+  }
+}
