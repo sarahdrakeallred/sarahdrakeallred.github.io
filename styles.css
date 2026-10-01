@@ -1079,3 +1079,22 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     margin-top: 14px;
   }
 }
+
+/* Give homepage project thumbnails more room to breathe */
+.project-grid {
+  row-gap: 128px;
+  column-gap: 72px;
+}
+
+@media (max-width: 900px) {
+  .project-grid {
+    row-gap: 104px;
+    column-gap: 40px;
+  }
+}
+
+@media (max-width: 620px) {
+  .project-grid {
+    gap: 88px;
+  }
+}
