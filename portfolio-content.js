@@ -215,7 +215,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "3. Organizing what we learned: After returning from Africa, our team organized the field notes into a coded spreadsheet. Grouping the interviews into themes helped us identify recurring needs related to technology access, portal navigation, missionary support, online learning, and students’ educational experiences. This process helped us move from individual stories to patterns that could guide the next stage of design."
+          "text": "Organizing what we learned: After returning from Africa, our team organized the field notes into a coded spreadsheet. Grouping the interviews into themes helped us identify recurring needs related to technology access, portal navigation, missionary support, online learning, and students’ educational experiences. This process helped us move from individual stories to patterns that could guide the next stage of design."
         },
         {
           "type": "image",
@@ -225,7 +225,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "4. Translating research into a student resource: Our team created this Student Journey Map to help students understand the steps from preparation and enrollment through courses, gatherings, certificates, and ecclesiastical endorsement. The map expanded the focus beyond the original first-semester resource and connected individual steps to the larger educational journey."
+          "text": "Translating research into a student resource: Our team created this Student Journey Map to help students understand the steps from preparation and enrollment through courses, gatherings, certificates, and ecclesiastical endorsement. The map expanded the focus beyond the original first-semester resource and connected individual steps to the larger educational journey."
         },
         {
           "type": "image",
@@ -235,7 +235,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "5. Designing support for Church leaders: I designed and created this Resource for Church Leaders in Adobe Illustrator. The interviews showed that Church leaders needed clearer guidance about how to support prospective and current BYU-Pathway students. The resource includes practical actions related to student access, local support, encouragement, and ecclesiastical endorsement. I collaborated with a teammate to determine the content and revised the resource through an iterative feedback process with the client."
+          "text": "Designing support for Church leaders: I designed and created this Resource for Church Leaders in Adobe Illustrator. The interviews showed that Church leaders needed clearer guidance about how to support prospective and current BYU-Pathway students. The resource includes practical actions related to student access, local support, encouragement, and ecclesiastical endorsement. I collaborated with a teammate to determine the content and revised the resource through an iterative feedback process with the client."
         },
         {
           "type": "image",
@@ -245,7 +245,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "6. Communicating the experience: I presented with members of my team at BYU’s 2025 Belonging Conference. Our presentation connected perspectives from students, missionaries, and Church leaders to the theme of belonging and introduced the journey maps our team created. This experience allowed me to help communicate our research process, findings, and design work to an academic audience."
+          "text": "Communicating the experience: I presented with members of my team at BYU’s 2025 Belonging Conference. Our presentation connected perspectives from students, missionaries, and Church leaders to the theme of belonging and introduced the journey maps our team created. This experience allowed me to help communicate our research process, findings, and design work to an academic audience."
         },
         {
           "type": "image",
