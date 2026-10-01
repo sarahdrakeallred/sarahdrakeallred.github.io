@@ -1237,6 +1237,59 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   }
 }
 
+/* Final project-page cleanup: keep the process story compact and balanced. */
+@media (min-width: 901px) {
+  .project-page .project-process {
+    padding-top: 78px;
+    padding-bottom: 82px;
+  }
+
+  .project-page .project-process > h2,
+  .project-page .project-section-heading {
+    max-width: 900px;
+    margin-bottom: 24px;
+    font-size: clamp(2.7rem, 4.4vw, 4.7rem);
+  }
+
+  .project-page .project-step-heading {
+    margin-bottom: 16px;
+    font-size: clamp(1rem, 1.35vw, 1.35rem);
+    line-height: 1.2;
+  }
+
+  .project-page .full-carousel-body {
+    grid-template-columns: minmax(0, 1.25fr) minmax(260px, .75fr);
+    gap: 34px;
+    min-height: 0;
+    align-items: stretch;
+  }
+
+  .project-page .full-carousel-body .full-carousel-frame {
+    height: clamp(260px, 24vw, 360px);
+  }
+
+  .project-page .full-carousel-body .full-carousel-caption {
+    min-height: 0;
+    padding: 18px 0;
+  }
+
+  .project-page .full-carousel-body .full-carousel-caption p:last-child {
+    font-size: clamp(.95rem, 1.15vw, 1.1rem);
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 900px) {
+  .project-page .project-process > h2 {
+    white-space: normal;
+  }
+
+  .project-page .project-process > h2,
+  .project-page .project-section-heading {
+    margin-bottom: 24px;
+  }
+}
+
 /* Polished 2x2 project grid: balanced cards with readable, uncropped visuals. */
 @media (min-width: 701px) {
   .project-grid {
@@ -2342,6 +2395,72 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 }
 
 /* Final polish: balanced 2x2 cards with complete, uncropped visuals. */
+
+/* Last project-page override: keep the process unit compact and readable. */
+@media (min-width: 901px) {
+  .project-page .project-process {
+    padding-top: 78px;
+    padding-bottom: 82px;
+  }
+
+  .project-page .project-process > h2,
+  .project-page .project-section-heading {
+    max-width: 900px;
+    margin-bottom: 24px;
+    font-size: clamp(2.7rem, 4.4vw, 4.7rem);
+  }
+
+  .project-page .project-step-heading {
+    margin-bottom: 16px;
+    font-size: clamp(1rem, 1.35vw, 1.35rem);
+    line-height: 1.2;
+  }
+
+  .project-page .full-carousel-body {
+    grid-template-columns: minmax(0, 1.25fr) minmax(260px, .75fr);
+    gap: 34px;
+    min-height: 0;
+    align-items: stretch;
+  }
+
+  .project-page .full-carousel-body .full-carousel-frame {
+    height: clamp(260px, 24vw, 360px);
+  }
+
+  .project-page .full-carousel-body .full-carousel-caption {
+    min-height: 0;
+    padding: 18px 0;
+  }
+
+  .project-page .full-carousel-body .full-carousel-caption p:last-child {
+    font-size: clamp(.95rem, 1.15vw, 1.1rem);
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 900px) {
+  .project-page .project-process > h2 {
+    white-space: normal;
+  }
+
+  .project-page .project-process > h2,
+  .project-page .project-section-heading {
+    margin-bottom: 24px;
+  }
+}
+
+/* Match the Design lessons learned text to the page's body copy. */
+.project-page .project-support-copy p,
+.project-page .project-lesson {
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+/* Match the lessons section to the opening project-introduction background. */
+.project-page .project-lessons {
+  background: var(--paper);
+}
+
 @media (min-width: 701px) {
   .project-grid {
     display: grid !important;
