@@ -702,3 +702,16 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     font-size: clamp(2.9rem, 13vw, 4.8rem);
   }
 }
+
+/* Keep footer navigation grouped on project pages */
+.site-footer-links {
+  display: flex;
+  gap: 28px;
+}
+
+@media (max-width: 620px) {
+  .site-footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
