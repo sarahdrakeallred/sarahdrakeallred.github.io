@@ -550,7 +550,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "My role: I completed the website redesign and mobile app prototype as individual projects for my Digital Interface Design course. I examined the existing UOS website, developed new interface layouts, created the visual system, designed the dashboard and mobile screens, and used Adobe Illustrator to create and refine the interface elements. I also conducted a user walkthrough of the website and mobile app prototypes as part of the class presentation. I explained how a student could move through the interfaces and access key functions, which helped me evaluate the clarity of the navigation, screen sequence, and user experience. I also received professor and class feedback on the designs and evaluated the work based on clarity, visual hierarchy, and platform-specific design conventions."
+          "text": "My role: I completed the website redesign and mobile app prototype as individual projects for my Digital Interface Design course. I examined the existing UOS website, developed new interface layouts, created the visual system, designed the dashboard and mobile screens, and used Adobe Illustrator to create and refine the interface elements. I also conducted a user walkthrough of the website and mobile app prototypes as part of the class presentation. I explained how a student could move through the interfaces and access key functions, which helped me evaluate the clarity of the navigation, screen sequence, and user experience."
         },
         {
           "type": "text",
