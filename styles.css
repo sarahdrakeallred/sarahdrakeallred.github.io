@@ -1176,6 +1176,22 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   }
 }
 
+/* Final override: keep the desktop project grid at two columns. */
+@media (min-width: 701px) {
+  .project-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Final override: keep the desktop project grid at two columns. */
+@media (min-width: 701px) {
+  .project-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
 /* About section headshot */
 .about-portrait {
   overflow: hidden;
@@ -2164,6 +2180,14 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 .project-lesson {
   font-size: 12px;
   line-height: 1.6;
+}
+
+/* Final desktop grid override: keep the homepage projects at two columns. */
+@media (min-width: 701px) {
+  .project-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
 }
 
 @media (max-width: 700px) {
