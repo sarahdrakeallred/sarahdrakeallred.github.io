@@ -2054,6 +2054,7 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 
 .showcase-frame {
   height: 310px;
+  box-shadow: none;
 }
 
 .showcase-caption {
@@ -2362,6 +2363,10 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   .project-grid {
     display: grid !important;
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  .featured-copy .project-link {
+    font-size: inherit;
   }
 }
 
