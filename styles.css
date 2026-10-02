@@ -1365,8 +1365,8 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 
 .project-page .full-carousel-body .full-carousel-frame {
   width: 100% !important;
-  height: clamp(230px, 62vw, 640px) !important;
-  min-height: 230px !important;
+  height: max(360px, min(52vh, 520px)) !important;
+  min-height: 360px !important;
 }
 
 .project-page .full-carousel-body .full-carousel-caption {
@@ -1395,7 +1395,7 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   align-self: start !important;
   width: 48px !important;
   height: 48px !important;
-  margin-top: calc(clamp(230px, 62vw, 640px) / 2 - 24px) !important;
+  margin-top: calc(max(360px, min(52vh, 520px)) / 2 - 24px) !important;
   border: 1px solid var(--ink) !important;
   background: transparent !important;
   color: var(--ink) !important;
@@ -1416,10 +1416,15 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     gap: 8px !important;
   }
 
+  .project-page .full-carousel-body .full-carousel-frame {
+    height: max(230px, min(62vw, 330px)) !important;
+    min-height: 230px !important;
+  }
+
   .project-page .full-carousel-stage > .carousel-side-control {
     width: 40px !important;
     height: 40px !important;
-    margin-top: calc(clamp(230px, 62vw, 640px) / 2 - 20px) !important;
+    margin-top: calc(max(230px, min(62vw, 330px)) / 2 - 20px) !important;
     font-size: 18px !important;
   }
 }
