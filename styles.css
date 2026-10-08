@@ -2463,6 +2463,16 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   font-size: inherit;
 }
 
+.project-card .project-card-tags {
+  gap: 8px;
+  margin: 0 0 24px;
+}
+
+.project-card .project-card-tags span {
+  padding: 7px 10px;
+  font-size: 10px;
+}
+
 @media (max-width: 900px) {
   .featured-visual {
     min-height: 470px;
