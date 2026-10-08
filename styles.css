@@ -2763,11 +2763,12 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   background: var(--paper);
 }
 
-/* Keep the final solution and lessons sections closer together. */
+/* Keep the main project sections compact and consistently spaced. */
+.project-page .project-process,
 .project-page .project-support,
 .project-page .project-lessons {
-  padding-top: 18px;
-  padding-bottom: 24px;
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
 }
 
 /* Keep all project-page body copy at the same readable size. */
