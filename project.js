@@ -21,14 +21,17 @@ const projectIntroVisuals = {
     alt: "BYU-Pathway Worldwide employee onboarding course showing a diverse group of students"
   },
   field: {
-    src: "assets/web/uganda-field-interview.jpg",
-    alt: "Interview in Uganda during the Kenya and Uganda field research project"
+    src: "assets/web/kenya-uganda-hero.jpg",
+    alt: "Field research interview in Uganda during the Kenya and Uganda experiential learning project"
   }
 };
 const projectIntroVisual = document.querySelector("#projectIntroVisual");
+const projectIntroVisualLink = document.querySelector("#projectIntroVisualLink");
 const projectIntroImage = document.querySelector("#projectIntroImage");
 const introVisual = projectIntroVisuals[project.id] || contentItems.find((item) => item.type === "image");
 if (introVisual) {
+  projectIntroVisualLink.href = introVisual.src;
+  projectIntroVisualLink.setAttribute("aria-label", `Enlarge ${introVisual.alt}`);
   projectIntroImage.src = introVisual.src;
   projectIntroImage.alt = introVisual.alt;
   projectIntroVisual.hidden = false;
@@ -73,9 +76,12 @@ processItems.forEach((item) => {
   }
 });
 
-const lightboxItems = slides
-  .filter((item) => item.type === "image")
-  .map((item) => ({ src: item.src, alt: item.alt }));
+const lightboxItems = [
+  ...(introVisual ? [{ src: introVisual.src, alt: introVisual.alt }] : []),
+  ...slides
+    .filter((item) => item.type === "image")
+    .map((item) => ({ src: item.src, alt: item.alt }))
+];
 
 window.projectLightboxItems = lightboxItems;
 
