@@ -2767,8 +2767,8 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 .project-page .project-process,
 .project-page .project-support,
 .project-page .project-lessons {
-  padding-top: 24px !important;
-  padding-bottom: 24px !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
 }
 
 /* Keep all project-page body copy at the same readable size. */
@@ -2847,7 +2847,7 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 @media (min-width: 901px) {
   .project-page .project-intro h1 {
     max-width: 980px;
-    font-size: clamp(3.8rem, 6.3vw, 6.5rem) !important;
+    font-size: clamp(3.2rem, 5.2vw, 5.4rem) !important;
     line-height: .94;
   }
 
@@ -2860,7 +2860,7 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 
 @media (max-width: 900px) {
   .project-page .project-intro h1 {
-    font-size: clamp(2.75rem, 12vw, 4.5rem) !important;
+    font-size: clamp(2.75rem, 9vw, 4rem) !important;
   }
 
   .project-page .project-process > h2,
