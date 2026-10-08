@@ -420,6 +420,32 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 .hero-art-empty { min-width: 0; min-height: 520px; height: 100%; background: transparent; border: 0; }
 .hero-art-empty::before { display: none; }
 
+/* Use the existing About Me headshot as the homepage hero image. */
+.hero-art-photo {
+  min-width: 0;
+  min-height: 520px;
+  height: 520px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+}
+
+.hero-art-photo::before { display: none; }
+
+.hero-art-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 620px) {
+  .hero-art-photo {
+    min-height: 390px;
+    height: 390px;
+  }
+}
+
 /* Final feedback: process visual and explanation shown together */
 .full-carousel-body { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(280px, .92fr); gap: clamp(30px, 5vw, 78px); align-items: stretch; }
 .full-carousel-body .carousel-image-link { min-width: 0; }
