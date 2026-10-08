@@ -9,13 +9,13 @@ window.portfolioContent = {
         "Stakeholder collaboration"
       ],
       "id": "geo",
-      "title": "From Organizational Complexity to a Shared Starting Point",
-      "subtitle": "BYU-Pathway Worldwide GEO Employee Onboarding",
-      "lede": "I designed and developed a department-specific onboarding experience for Global Engagement & Operations (GEO) at BYU-Pathway Worldwide. The project resulted in a four-module, twelve-lesson Articulate Rise course supported by videos, an organizational chart, a GEO Onboarding Reference Guide, and a shareable Rise link.",
+      "title": "BYU-Pathway Worldwide Employee Onboarding",
+      "subtitle": "Creating a Shared Starting Point for GEO",
+      "lede": "I designed and developed a department-specific onboarding experience for Global Engagement & Operations (GEO) at BYU-Pathway Worldwide. The project resulted in a four-module, twelve-lesson Articulate Rise course supported by four videos, an organizational chart, a GEO Onboarding Reference Guide, and a shareable Rise link.",
       "content": [
         {
           "type": "text",
-          "text": "I designed and developed a department-specific onboarding experience for Global Engagement & Operations (GEO) at BYU-Pathway Worldwide. The project resulted in a four-module, twelve-lesson Articulate Rise course supported by videos, an organizational chart, a GEO Onboarding Reference Guide, and a shareable Rise link."
+          "text": "I designed and developed a department-specific onboarding experience for Global Engagement & Operations (GEO) at BYU-Pathway Worldwide. The project resulted in a four-module, twelve-lesson Articulate Rise course supported by four videos, an organizational chart, a GEO Onboarding Reference Guide, and a shareable Rise link."
         },
         {
           "type": "text",
@@ -23,11 +23,11 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "The solution: I created a self-paced onboarding experience that introduces learners to BYU-Pathway, its students, GEO’s structure, the roles within the department, and the systems and resources connected to their work."
+          "text": "The solution: I created a self-paced onboarding experience that introduces learners to BYU-Pathway, its students, GEO’s structure and roles, and the systems and resources connected to their work."
         },
         {
           "type": "text",
-          "text": "My role: I served as the sole instructional designer and led the project from analysis through development, review, revision, and preparation for implementation."
+          "text": "My role: I served as the sole instructional designer and led the project from analysis through development, review, revision, and implementation."
         },
         {
           "type": "text",
@@ -39,7 +39,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "The starting point: The project began with a broad request to create a formal onboarding experience for new GEO personnel. I chose to begin with a project intake form so I could clarify the purpose, audience, scope, and expectations with the client before moving into design. This helped us establish a shared understanding of the project and gave me a clearer foundation for investigating what learners actually needed to understand."
+          "text": "The starting point: I began with a project intake form to clarify the purpose, audience, scope, and expectations. This established a shared understanding of the project and gave me a foundation for investigating learner needs."
         },
         {
           "type": "image",
@@ -49,7 +49,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Understanding the learners: Empathy is important to the way I approach instructional design, so I wanted to understand the people who would use the course, not just their roles. I interviewed several GEO managers, a contractor, and four missionaries whose different backgrounds, prior knowledge, and onboarding experiences helped me identify what learners needed. Adult learning principles influenced my decision to consider learners’ prior experiences and make the onboarding relevant to their new roles. These interviews directly informed the course learning outcomes and helped me design a shared foundation for learners beginning with different levels of prior knowledge. The visual summarizes common characteristics and needs identified through the interviews rather than representing any one individual."
+          "text": "Understanding the learners: Empathy guides my instructional design, so I wanted to understand the people who would use the course—not just their roles. I interviewed GEO managers, a contractor, and four missionaries with varied backgrounds, prior knowledge, and onboarding experiences. Drawing on adult learning principles, I used these interviews to shape the course outcomes and create a shared foundation for learners with different starting points."
         },
         {
           "type": "image",
@@ -59,7 +59,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Creating alignment: Once I understood where learners were starting and what they needed to understand, I translated those findings into six course learning outcomes. I intentionally organized the content into four modules and twelve short lessons, applying microlearning principles by breaking the onboarding experience into focused, manageable sections. I then used the Content and Alignment Map to connect the outcomes to lesson outcomes, content, practice, assessment, and resources. The map helped me make instructional decisions deliberately and keep the course focused on meaningful workplace understanding."
+          "text": "Creating alignment: After identifying learners’ starting points and needs, I translated my findings into six course learning outcomes. I organized the course into four modules and twelve short lessons, applying microlearning principles to create focused, manageable sections. I used a Content and Alignment Map to connect course and lesson outcomes to content, practice, assessment, and resources, keeping the design focused on meaningful workplace understanding."
         },
         {
           "type": "image",
@@ -69,7 +69,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Designing the learning journey: I wanted learners to build a mental model of BYU-Pathway before diving into the details of GEO, their teams, and their own roles. I did not want them to begin with a list of departments, systems, and responsibilities without understanding how those pieces fit into the larger organization. I organized the course to move from BYU-Pathway’s mission, strategy, curriculum, and students to headquarters, GEO’s structure, teams, roles, systems, and support resources. This sequence was designed to help learners understand how their work fits into the larger organization."
+          "text": "Designing the learning journey: I wanted learners to understand BYU-Pathway’s larger context before encountering the details of GEO and their individual roles. I organized the course to move from the organization’s mission, strategy, curriculum, and students to headquarters, GEO’s structure, teams, roles, systems, and support resources. This sequence helped learners build a mental model of how their work fits within the larger organization."
         },
         {
           "type": "image",
@@ -79,7 +79,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Turning content into multimedia: I chose to produce four short, focused videos for the first module rather than one long “Welcome to BYU-Pathway” video. Separating the content into focused pieces allowed each video to address one specific concept and made the videos easier to update as the organization changes. It also made them easier to reuse in other BYU-Pathway projects. I wrote the scripts, created the voiceovers, designed the visuals in PowerPoint and Illustrator, and edited the videos in Camtasia."
+          "text": "Turning content into multimedia: I produced four short videos for the first module instead of one long “Welcome to BYU-Pathway” video. Each addressed one concept, making the content easier to update and reuse as the organization changes. I wrote the scripts, created the voiceovers, designed the visuals in PowerPoint and Illustrator, and edited the videos in Camtasia."
         },
         {
           "type": "video",
@@ -89,7 +89,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Connecting employees to students: I included student stories and reflection prompts because empathy was important at two levels of this project. Merrill’s First Principles of Instruction influenced my use of authentic examples and prompts that encouraged learners to connect new content to their prior experiences and roles. I wanted employees to develop empathy for students whose circumstances may be different from their own and to see how their work contributes to a larger purpose. I hoped this connection would make the onboarding content feel more relevant and meaningful."
+          "text": "Connecting employees to students: Empathy shaped this project at two levels: I wanted to support employees as learners while helping them understand the students they serve. I included student stories and reflection prompts, drawing on Merrill’s First Principles of Instruction to connect authentic examples to learners’ prior experiences. This story asks learners to consider how fear of failure may affect a student’s confidence, participation, and willingness to seek help. Connecting employees’ work to students’ experiences made the onboarding more relevant and meaningful."
         },
         {
           "type": "image",
@@ -99,7 +99,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Making GEO easier to understand: GEO’s structure was difficult to understand through written information alone, so I created the organizational chart as a visual map rather than a memorization exercise. Learners could use it to orient themselves during onboarding, see how the organization fits together, and locate where their own work belongs. I included the chart in both the onboarding course and the Reference Guide so learners could return to it as a performance-support resource after completing the course."
+          "text": "Making GEO easier to understand: GEO’s structure was difficult to understand through written information alone, so I created this organizational chart as a visual map. Influenced by adult learning principles, I designed it as a resource learners could use during onboarding and revisit later. The chart shows how BYU-Pathway leadership, GEO, departments, and individual roles fit together. I included it in both the course and Reference Guide as ongoing performance support."
         },
         {
           "type": "image",
@@ -109,7 +109,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Supporting learners beyond the course: I introduced the Reference Guide at the beginning of the course so learners could use it while they learned and continue using it after onboarding. This decision applied cognitive load theory by moving detailed information into a just-in-time reference resource instead of asking learners to process and memorize every acronym, system, contact, or organizational detail. I also created callouts throughout the course that directed learners to specific pages when they needed additional information or reference material."
+          "text": "Supporting learners beyond the course: I introduced the Reference Guide at the beginning of the course as a resource learners could use during onboarding and revisit afterward. Applying cognitive load theory, I moved detailed information—such as acronyms, systems, contacts, and organizational details—into this just-in-time resource rather than requiring learners to memorize it. Callouts throughout the course direct learners to relevant pages when they need additional information."
         },
         {
           "type": "image",
@@ -119,7 +119,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Reviewing and improving the experience: I created a structured expert-review process that asked reviewers to consider accuracy, completeness, audience fit, clarity, repetition, usability, and potential barriers. I used the feedback to identify areas for revision and prepare the course and supporting materials for implementation."
+          "text": "Reviewing and improving the experience: I created a structured expert-review process focused on accuracy, completeness, audience fit, clarity, usability, repetition, and potential barriers. I used the feedback to revise the course and supporting materials before implementing the final experience."
         },
         {
           "type": "image",
@@ -133,12 +133,12 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "The final solution combined a four-module, twelve-lesson Rise course with videos, an organizational chart, a Reference Guide, and a shareable Rise link. Together, these pieces created a shared onboarding foundation while leaving detailed, role-specific training to managers and teams."
+          "text": "The completed course created a shared onboarding foundation while leaving detailed, role-specific training to managers and teams."
         },
         {
           "type": "link",
           "href": "https://share.articulate.com/NNLQYSolmRT7Opr1YJW7i",
-          "label": "View the GEO Onboarding Course"
+          "label": "Explore the GEO Onboarding Course"
         },
         {
           "type": "text",
@@ -146,15 +146,15 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Build understanding before asking learners to remember details. This project reinforced the importance of building a mental model before introducing organizational details. Learners first needed to understand BYU-Pathway’s purpose, students, and structure before they could make sense of GEO, their teams, and their roles."
+          "text": "Build understanding before details. Learners needed a mental model of BYU-Pathway’s purpose, students, and structure before they could understand GEO and their roles."
         },
         {
           "type": "text",
-          "text": "Empathy affects both the content and the structure. Understanding that contractors and missionaries would begin with different experiences influenced the learning outcomes, the shared foundation of the course, and the decision to build context before introducing detailed organizational information."
+          "text": "Empathy shapes design. Learners’ different backgrounds influenced the course outcomes, shared foundation, and content structure."
         },
         {
           "type": "text",
-          "text": "A shared foundation is not the same as one-size-fits-all training. The learners needed a common starting point, but they did not all begin with the same background or needs. I learned to design for shared understanding while still acknowledging the differences learners bring to the experience."
+          "text": "A shared foundation is not one-size-fits-all training. I learned to create a common starting point while acknowledging differences in learners’ backgrounds and needs."
         }
       ]
     },
@@ -168,27 +168,27 @@ window.portfolioContent = {
       "id": "field",
       "title": "From Field Research to Learner Support",
       "subtitle": "Kenya and Uganda Experiential Learning Project",
-      "lede": "I participated in a two-week field research project in Kenya and Uganda through a partnership between BYU-Pathway Field Support and the BYU Instructional Psychology and Technology department.",
+      "lede": "I participated in a two-week field research project in Kenya and Uganda through a partnership between BYU-Pathway Field Support and the BYU Instructional Psychology and Technology Department.",
       "content": [
         {
           "type": "text",
-          "text": "I participated in a two-week field research project in Kenya and Uganda through a partnership between BYU-Pathway Field Support and the BYU Instructional Psychology and Technology department."
+          "text": "I participated in a two-week field research project in Kenya and Uganda through a partnership between BYU-Pathway Field Support and the BYU Instructional Psychology and Technology Department."
         },
         {
           "type": "text",
-          "text": "The problem: BYU-Pathway Field Support needed to field-test recently created resources before implementing them more widely and better understand missionary training needs in the Africa Central area. The project also explored challenges involving student portal navigation, registration, technology access, religion course requirements, missionary support, and students’ understanding of their educational journey."
+          "text": "The problem: BYU-Pathway Field Support needed to field-test recently created resources before implementing them more broadly and to better understand missionary training needs in the Africa Central area."
         },
         {
           "type": "text",
-          "text": "The solution: Our team conducted interviews, led devotionals, and met with students, missionaries, and Church leaders. As we evaluated the existing resources, we recognized that they did not fully address the needs people were describing. We revised our interview questions, organized the field notes into a coded spreadsheet, and shifted the project direction. The team created two new visual performance-support resources: a Student Journey Map and a Resource for Church Leaders. We also developed recommendations for portal training videos, student orientation, leader training, missionary support, and centralized help resources."
+          "text": "The solution: Our team interviewed students, missionaries, and Church leaders, led devotionals, and evaluated the existing resources. We found that the materials did not fully address the needs people described, so we revised our interview questions and shifted the project’s focus. We created two visual performance-support resources: a Student Journey Map and a Resource for Church Leaders."
         },
         {
           "type": "text",
-          "text": "My role: I was one of the four IP&T students who participated in the field experience. I contributed to interviews and note-taking, then helped organize the field notes after we returned. My primary responsibility was designing and creating the Resource for Church Leaders in Adobe Illustrator. I collaborated with a teammate to determine the content and worked through an iterative feedback process to refine the resource."
+          "text": "My role: I was one of four graduate students who participated in the field experience. I contributed to interviews and note-taking, helped organize the field notes, and designed the Resource for Church Leaders in Adobe Illustrator. I collaborated with a teammate to determine the content, then refined the resource through an iterative feedback process with the client."
         },
         {
           "type": "text",
-          "text": "Skills demonstrated: Field-based learner research, qualitative interviewing, cultural responsiveness, adaptability, data organization and synthesis, empathy-centered design, visual performance-support design, Adobe Illustrator, collaboration, client feedback, and iterative design."
+          "text": "Skills demonstrated: Field-based learner research, qualitative interviewing, cultural responsiveness, adaptability, data organization and synthesis, empathy-centered design, visual performance-support design, Adobe Illustrator, communicating project experiences, collaboration, client feedback, and iterative design."
         },
         {
           "type": "text",
@@ -196,7 +196,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Conducting empathetic field-based research: Empathy is one of the values that guides my design practice, so I approached the evaluation with the goal of listening carefully to the people who would use the resources. Our team traveled to Kenya and Uganda to field-test recently created BYU-Pathway resources with students, missionaries, and Church leaders before implementation. Through interviews, I listened not only for reactions to the materials but also for the experiences, challenges, and support needs behind those reactions. This helped us understand the resources within the context of people’s real lives."
+          "text": "Conducting empathetic field-based research: Empathy guides my design practice, so I focused on listening carefully to the people who would use the resources. During interviews with students, missionaries, and Church leaders in Kenya and Uganda, I listened for reactions to the materials as well as the experiences and support needs behind them. This helped us understand the resources within the context of people’s daily lives."
         },
         {
           "type": "image",
@@ -206,7 +206,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Recognizing the need to pivot: This student journey map was one of the recently created resources our team brought to Kenya and Uganda for field testing before implementation. After a few days of interviews, we realized that the resources did not fully address the needs people were describing. The issue was not simply that the materials needed minor revisions. We needed to understand broader needs related to technology access, registration, missionary support, ecclesiastical endorsement, and students’ understanding of the larger BYU-Pathway journey. We revised our interview questions and shifted from testing the existing resources to gathering information that could guide entirely new deliverables."
+          "text": "Recognizing the need to pivot: This Student Journey Map was one of the resources we brought to Kenya and Uganda for field testing. After several days of interviews, we realized that the existing resources did not fully address the needs people described. We needed to understand broader needs related to technology access, registration, missionary support, ecclesiastical endorsement, and students’ understanding of the larger BYU-Pathway journey. We revised our interview questions and shifted from testing existing resources to gathering information that could guide new deliverables."
         },
         {
           "type": "image",
@@ -216,7 +216,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Organizing what we learned: After returning from Africa, our team organized the field notes into a coded spreadsheet. Grouping the interviews into themes helped us identify recurring needs related to technology access, portal navigation, missionary support, online learning, and students’ educational experiences. This process helped us move from individual stories to patterns that could guide the next stage of design."
+          "text": "Organizing what we learned: After returning from Africa, our team organized the field notes into a coded spreadsheet. Grouping the interviews into themes revealed recurring needs related to technology access, portal navigation, missionary support, online learning, and students’ educational experiences. This helped us move from individual stories to patterns that could guide the next stage of design."
         },
         {
           "type": "image",
@@ -226,7 +226,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Translating research into a student resource: Our team created this Student Journey Map to help students understand the steps from preparation and enrollment through courses, gatherings, certificates, and ecclesiastical endorsement. The map expanded the focus beyond the original first-semester resource and connected individual steps to the larger educational journey."
+          "text": "Translating research into a student resource: Our team created this Student Journey Map to show students the path from preparation and enrollment through courses, gatherings, certificates, and ecclesiastical endorsement. The map expanded the focus beyond the original first-semester resource and connected individual steps to the larger BYU-Pathway journey."
         },
         {
           "type": "image",
@@ -236,7 +236,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Designing support for Church leaders: I designed and created this Resource for Church Leaders in Adobe Illustrator. The interviews showed that Church leaders needed clearer guidance about how to support prospective and current BYU-Pathway students. The resource includes practical actions related to student access, local support, encouragement, and ecclesiastical endorsement. I collaborated with a teammate to determine the content and revised the resource through an iterative feedback process with the client."
+          "text": "Designing support for Church leaders: I designed and created this Resource for Church Leaders in Adobe Illustrator. Interviews showed that Church leaders needed clearer guidance for supporting prospective and current BYU-Pathway students. The resource includes practical actions related to student access, local support, encouragement, and ecclesiastical endorsement. I collaborated with a teammate to determine the content, then refined the resource through an iterative feedback process with the client."
         },
         {
           "type": "image",
@@ -246,7 +246,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Communicating the experience: I presented with members of my team at BYU’s 2025 Belonging Conference. Our presentation connected perspectives from students, missionaries, and Church leaders to the theme of belonging and introduced the journey maps our team created. This experience allowed me to help communicate our research process, findings, and design work to an academic audience."
+          "text": "Communicating the experience: I presented with members of my team at BYU’s 2025 Belonging Conference. Our presentation explored how experiential learning trips can foster a sense of belonging globally, within our campus community, and within our program. This opportunity strengthened my ability to communicate project work to an academic audience."
         },
         {
           "type": "image",
@@ -260,15 +260,15 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Empathy and context shape design. Spending time with students, missionaries, and Church leaders helped me understand their experiences more personally. The field experience reminded me that empathy requires listening carefully to the people who will use the resources and considering the realities of their lives. The challenges we heard about technology access, online learning, portal navigation, and missionary support showed me that instructional needs are shaped by context."
+          "text": "Empathy and context shape design. Fieldwork showed me that instructional needs are shaped by learners’ real circumstances, including technology access, online learning, portal navigation, and local support."
         },
         {
           "type": "text",
-          "text": "Research-informed design requires flexibility and action. Our team traveled to evaluate existing resources, but the interviews revealed that we needed to address broader needs. I learned that designers need to remain open to changing the questions, deliverables, and direction of a project when the evidence points somewhere new. Interviews and field notes became more useful when we organized them into themes, journey maps, recommendations, and support resources that others could understand and use."
+          "text": "Research-informed design requires flexibility and action. When interviews revealed broader needs, we changed our questions and deliverables and turned field notes into support resources."
         },
         {
           "type": "text",
-          "text": "Collaboration strengthens design. This project required me to contribute to a team process, incorporate content from another student, and revise the Resource for Church Leaders through client feedback. I learned that collaboration does not lessen individual ownership. It gives the design more perspectives and helps the final resource better serve its audience."
+          "text": "Collaboration strengthens design. Working with teammates and clients brought additional perspectives and improved the final resource."
         }
       ]
     },
@@ -282,27 +282,27 @@ window.portfolioContent = {
       "id": "argossey",
       "title": "From Client Materials to a Multimedia Learning Experience",
       "subtitle": "Argossey Professional Development Course and Video Production",
-      "lede": "Argossey is a young education technology company focused on helping schools strengthen teacher-student relationships through professional development and a teacher-facing platform. I was hired as a contractor to create instructional videos and help develop an online professional-development course for teachers in school districts that had purchased the Argossey platform.",
+      "lede": "Argossey is an educational technology company that helps schools strengthen teacher-student relationships through professional development and a teacher-facing platform. I was hired as a contractor to create instructional videos and help develop an online professional-development course for teachers using the Argossey platform.",
       "content": [
         {
           "type": "text",
-          "text": "Argossey is a young education technology company focused on helping schools strengthen teacher-student relationships through professional development and a teacher-facing platform. I was hired as a contractor to create instructional videos and help develop an online professional-development course for teachers in school districts that had purchased the Argossey platform."
+          "text": "Argossey is an educational technology company that helps schools strengthen teacher-student relationships through professional development and a teacher-facing platform. I was hired as a contractor to create instructional videos and help develop an online professional-development course for teachers using the Argossey platform."
         },
         {
           "type": "text",
-          "text": "The problem: Argossey had already created lesson outlines, video scripts, and production specifications but needed those materials transformed into an online professional-development course for teachers using its platform. The client chose Moodle as the course platform, which required me to learn a new system and work within detailed project and budget constraints."
+          "text": "The problem: Argossey had lesson outlines, video scripts, and production specifications but needed them transformed into an online course. Because the client chose Moodle, I had to learn a new system while working within project and budget constraints."
         },
         {
           "type": "text",
-          "text": "The solution: I helped develop the first half of the professional-development course in Moodle and created four instructional videos using client-provided scripts. The course included readings, videos, quizzes, journals, message boards, and action items connected to teachers’ practice. The materials developed so far were provided to Argossey for testing, and that feedback will guide revisions and development of the remaining course content."
+          "text": "The solution: I helped develop the first half of the course in Moodle and created four instructional videos from client-provided scripts. The course combined readings, videos, quizzes, journals, message boards, and action items connected to teachers’ practice. Argossey received the materials for testing, and future feedback will guide later revisions."
         },
         {
           "type": "text",
-          "text": "My role: I worked as a contractor on the project and contributed to course development, assessment design, video production, and visual design. I translated the client-provided materials into Moodle units, created scenario-based quizzes, and produced four instructional videos. I created the voiceovers and video visuals, selected background audio, and edited the videos in Premiere Pro. I had never used Premiere Pro before this project, but I learned the program because it was the client’s available video-editing platform."
+          "text": "My role: As a contractor, I contributed to course development, assessment design, video production, and visual design. I translated client materials into Moodle units, created scenario-based quizzes, and produced four videos using Premiere Pro, a program I learned for this project."
         },
         {
           "type": "text",
-          "text": "Skills demonstrated: Online course development, Moodle, multimedia production, Premiere Pro, video editing, voiceover production, visual design, Canva, scenario-based assessment, AI-assisted content review, client communication, design advocacy, startup experience, working within project constraints, adaptability, and iterative development."
+          "text": "Skills demonstrated: Online course development, Moodle, multimedia production, Premiere Pro, video editing, voiceover production, visual design, Canva, scenario-based assessment, instructional review of AI-assisted content, client communication, design advocacy, working within project constraints, and iterative development."
         },
         {
           "type": "text",
@@ -310,7 +310,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Applying a client-provided design system: This page from Argossey’s Design and Experience Guide shows the component system that defined the course structure. Each unit used the same sequence of videos, readings, reflection, practice, Argossey activities, and message-board reflection. The guide also assigned each component its own label, color, and icon so teachers could recognize the pattern across the course. I used this system to build a cohesive Moodle experience while maintaining consistency across the units."
+          "text": "Applying a client-provided design system: This page from Argossey’s Design and Experience Guide shows the component system that defined the course structure. I used the guide’s consistent sequence, labels, colors, and icons to build a cohesive Moodle experience across the units."
         },
         {
           "type": "image",
@@ -320,7 +320,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Building from detailed production requirements: This Unit 3 build checklist was part of the production package Argossey provided. It identified every asset the unit needed, including three videos, readings, slides, objectives, reflection activities, an Argossey action, a message board, and quality-assurance requirements. I used this checklist to understand the project scope and organize the different components of the Moodle unit."
+          "text": "Building from detailed production requirements: Argossey’s Unit 3 build checklist identified the unit’s required videos, readings, slides, objectives, activities, message board, and quality-assurance checks. I used the checklist to understand the project scope and organize the Moodle unit."
         },
         {
           "type": "image",
@@ -330,7 +330,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Translating client materials into Moodle: This screenshot shows Unit 3 of the Moodle course I helped build. I organized the unit’s readings, videos, quiz, journal, message board, and action item into a consistent learning sequence based on Argossey’s design system and production requirements. Learning Moodle allowed me to transform the client-provided materials into an online course that teachers could navigate and use in their practice."
+          "text": "Translating client materials into Moodle: I built Unit 3 by organizing its readings, videos, quiz, journal, message board, and action item into a consistent sequence. Learning Moodle allowed me to turn the client materials into an online course teachers could navigate and use in practice."
         },
         {
           "type": "image",
@@ -340,7 +340,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Designing scenario-based assessment: This screenshot shows one question from the Unit 3 Check for Understanding Quiz, which I created. In conversations with the client, we clarified that the quizzes should function as brief checks after the readings, using one or two targeted application or inference questions rather than broad content tests. I designed this question to ask teachers to apply a restorative approach in a realistic student situation, with plausible answer choices and feedback explaining why a partially correct response did not fully reflect the intended approach."
+          "text": "Designing scenario-based assessment: I created the Unit 3 Check for Understanding Quiz. After clarifying the client’s expectations, I designed the quiz as a brief application check rather than a broad content test. The featured question uses a realistic student situation, plausible answer choices, and feedback to help teachers apply a restorative approach."
         },
         {
           "type": "image",
@@ -350,7 +350,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Applying instructional judgment to AI-assisted content: The client used AI to develop the video script and production guide, then asked me to follow the guide closely. As I reviewed the materials, I noticed opportunities to improve both the visual instructions and the script itself. I wrestled with how to make those changes while respecting the client’s direction, protecting the project budget, and creating a video I could be proud of. I scheduled a one-on-one conversation with the client to clarify our creative expectations before moving forward. The client appreciated that I reached out directly and gave me permission to adapt the guide when doing so would create a stronger video. I then revised the script, created the voiceover, and developed the visuals using my own design judgment."
+          "text": "Applying instructional judgment to AI-assisted content: The client used AI to develop the video script and production guide and asked me to follow the guide closely. I identified opportunities to improve the script and visual instructions, so I scheduled a conversation to clarify our creative expectations. The client gave me permission to adapt the guide when doing so would strengthen the video. I then revised the script, created the voiceover, and developed the visuals using my own design judgment."
         },
         {
           "type": "image",
@@ -360,7 +360,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Producing and editing the videos: Argossey had a license for Premiere Pro, a program I had never used before this project. I learned to use it to assemble one of the four videos I created. This screenshot shows the Unit 4 opening video in progress, with visual assets I designed in Canva layered with on-screen text, captions, narration, and background audio. Working in the timeline allowed me to manage the video’s pacing, transitions, and relationship between the visual and audio elements."
+          "text": "Producing and editing the videos: This Unit 4 opening video combines visuals I designed in Canva with on-screen text, captions, narration, and background audio."
         },
         {
           "type": "image",
@@ -370,7 +370,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Delivering a finished video: This Unit 4 opening video is one of the four instructional videos I created for the Argossey course. It introduces the focus of Unit 4 and prepares teachers to reflect on their classroom practice. I used the client-provided materials as a starting point, then applied my own judgment to the narration, voiceover, visual design, audio, pacing, and final presentation. The finished video represents the balance I worked to achieve between meeting the client’s requirements and creating a polished learning experience."
+          "text": "Delivering a finished video: This Unit 4 opening video is one of the four videos I created for the course. It introduces Unit 4 and prepares teachers to reflect on their classroom practice. I applied my judgment to the narration, visual design, audio, pacing, and final presentation while meeting the client’s requirements."
         },
         {
           "type": "video",
@@ -384,15 +384,15 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "AI-assisted content still requires instructional judgment. Much of the client-provided content had been generated with AI, so I learned to look beyond whether the material sounded polished. I needed to consider whether it was clear, useful, appropriately sequenced, and connected to teachers’ work. This project showed me that AI can support content development, but it does not replace the designer’s judgment."
+          "text": "AI-assisted content still requires instructional judgment. AI can support content development, but designers still need to evaluate AI-generated content for clarity, usefulness, and sequence."
         },
         {
           "type": "text",
-          "text": "Client collaboration requires flexibility and advocacy. Working with a startup required frequent communication, revisions, and careful attention to project constraints. I learned that collaboration involves listening to the client, explaining the reasoning behind my choices, and finding workable solutions that respect both the client’s requirements and my design judgment."
+          "text": "Client collaboration requires flexibility and advocacy. Designers need to listen to the client, explain their design choices, and find solutions that respect both project constraints and design quality."
         },
         {
           "type": "text",
-          "text": "A strong learning experience depends on how the pieces work together. The course included readings, videos, quizzes, journals, message boards, and action items. I learned that each component needs a clear purpose and needs to connect to the larger learning experience. Building the course required me to think beyond individual assets and consider how the pieces would work together for teachers using Argossey in their practice."
+          "text": "A strong learning experience depends on how the pieces work together. Each course component should have a clear purpose and contribute to a coherent learning experience."
         }
       ]
     },
@@ -404,29 +404,29 @@ window.portfolioContent = {
         "Learner agency"
       ],
       "id": "pc",
-      "title": "From Group Work to Individual Problem-Solving",
+      "title": "From an Entrepreneurial Group Project to a Community Problem-Solving Experience",
       "subtitle": "Redesigning the PC102 Course Project",
-      "lede": "As part of an advanced instructional design course, I helped redesign the major project within BYU-Pathway’s PathwayConnect 102 course. Historically, the project emphasized group entrepreneurship. Our team developed a proposal for an individual, community-based project in which students would identify a meaningful need, develop and test a potential solution, communicate their results, and reflect on what they learned.",
+      "lede": "As part of an advanced instructional design course, I helped redesign the major project in BYU-Pathway’s PathwayConnect 102 course. The original project emphasized group entrepreneurship. Our team proposed an individual, community-based project in which students would identify a need, develop and test a solution, communicate their results, and reflect on what they learned.",
       "content": [
         {
           "type": "text",
-          "text": "As part of an advanced instructional design course, I helped redesign the major project within BYU-Pathway’s PathwayConnect 102 course. Historically, the project emphasized group entrepreneurship. Our team developed a proposal for an individual, community-based project in which students would identify a meaningful need, develop and test a potential solution, communicate their results, and reflect on what they learned."
+          "text": "As part of an advanced instructional design course, I helped redesign the major project in BYU-Pathway’s PathwayConnect 102 course. The original project emphasized group entrepreneurship. Our team proposed an individual, community-based project in which students would identify a need, develop and test a solution, communicate their results, and reflect on what they learned."
         },
         {
           "type": "text",
-          "text": "The problem: BYU-Pathway gave us three broad goals for revising the project: help students learn more effectively by seeking divine help and support, develop problem-solving skills that could support employment, and help students earn income sooner so they could continue their education. The request did not specify an instructional strategy or project structure. We had to determine how to address these goals for students with different cultural, language, educational, technological, and work backgrounds."
+          "text": "The problem: BYU-Pathway gave us three goals: help students learn more effectively by seeking divine help and support, develop problem-solving skills that could support employment, and help students earn income sooner so they could continue their education. Because the request did not specify an instructional strategy or project structure, we had to design for learners with varied cultural, language, educational, technological, and work backgrounds."
         },
         {
           "type": "text",
-          "text": "The solution: Our team organized the project around the Know, Do, Become framework and a simplified design-thinking process. Students would identify a community need, explore possible solutions, create and test a prototype, revise their solution, communicate its potential impact, and reflect on the experience. The project focused on developing practical problem-solving, creativity, communication, and project-development skills that could support future employment or entrepreneurship."
+          "text": "The solution: Our team organized the project around the Know, Do, Become framework and a simplified design-thinking process. Students would identify a community need, explore solutions, create and test a prototype, revise it, communicate its potential impact, and reflect on the experience. The project focused on problem-solving, creativity, communication, and project development skills that could support employment or entrepreneurship."
         },
         {
           "type": "text",
-          "text": "My role: I served as one of two project managers. Together, we coordinated a team of undergraduate students, divided responsibilities, organized the team’s work, and met regularly with the BYU-Pathway client to share progress and receive feedback. I also wrote instructional components for the Week 4 solution-outline activity, Week 5 testing and improvement instruction, Week 6 presentation instruction, and Week 7 reflection and disciple-leadership instruction. Our team presented the proposed redesign to the client."
+          "text": "My role: I was one of two project managers. I coordinated a team of undergraduate students, divided responsibilities, tracked progress, and met with the BYU-Pathway client. I also wrote instructional components for Weeks 4–7 and helped present the proposed redesign to the client."
         },
         {
           "type": "text",
-          "text": "Skills demonstrated: Learner and environmental analysis, global design, project-based learning, design-thinking integration, project management, client collaboration, instructional writing, Canvas development, assessment design, teamwork, and client presentation."
+          "text": "Skills demonstrated: Learner and environmental analysis, global design, project-based learning, design-thinking integration, project management, client collaboration, instructional writing, Canvas development, assessment design, teamwork, and client presentations."
         },
         {
           "type": "text",
@@ -434,7 +434,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Turning client feedback into design questions: These notes from an early conversation with BYU-Pathway representatives capture the learner needs and priorities that shaped our redesign. We discussed students’ confidence, communication, problem-solving, teamwork, and employment concerns, along with the importance of creating a supportive environment where students could use course tools to solve problems in their own communities. Because the client’s request was broad, these notes helped us turn general goals into more specific design questions."
+          "text": "Turning client feedback into design questions: These notes from an early conversation with BYU-Pathway representatives capture the learner needs and priorities that shaped our redesign. We discussed confidence, communication, problem-solving, teamwork, and employment concerns, along with the need for a supportive environment where students could use course tools to address problems in their communities. The notes helped us turn broad goals into specific design questions."
         },
         {
           "type": "image",
@@ -444,7 +444,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Creating a shared design foundation: BYU-Pathway gave our team a broad request to redesign the PC102 project. I organized our emerging understanding of the project into a design document that clarified the purpose, identified the instructional gaps, described the target learners, and established the direction for the redesign. This document gave our team and client a shared reference point as we made decisions throughout the project."
+          "text": "Creating a shared design foundation: I organized our emerging understanding into a design document that clarified the purpose, instructional gaps, target learners, and direction for the redesign. It gave our team and client a shared reference point for making decisions throughout the project."
         },
         {
           "type": "image",
@@ -454,7 +454,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Organizing the project around Know, Do, Become and design thinking: BYU-Pathway values the Know, Do, Become framework, and our team chose to use it as the organizing structure for the redesigned project. We also used design thinking to guide students through understanding community needs, defining a problem, brainstorming solutions, creating a prototype, testing it, and refining their ideas. This structure grouped the activities into knowledge-building, practical action, and personal growth."
+          "text": "Organizing the project around Know, Do, Become and design thinking: BYU-Pathway values the Know, Do, Become framework, so our team used it to organize the redesigned project. We also used design thinking to guide students through understanding needs, defining a problem, brainstorming solutions, creating a prototype, testing it, and refining their ideas. Together, these frameworks connected knowledge-building, practical action, and personal growth."
         },
         {
           "type": "image",
@@ -464,7 +464,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Coordinating the team’s work: As one of two project managers, I helped divide the project responsibilities across our team and track who was responsible for each instructional component. The assignment map shows that I contributed to several parts of the project, including the Week 4 solution-outline activity and the Week 5 instruction on testing, feedback, and improvement. Coordinating the work while also developing instructional content helped me practice managing a complex team project without losing sight of the learner experience."
+          "text": "Coordinating the team’s work: As one of two project managers, I divided responsibilities across the team and tracked ownership of each instructional component. The assignment map shows my contributions to the Week 4 solution-outline activity and Week 5 instruction on testing, feedback, and improvement. Managing the team while developing content helped me practice project management without losing sight of the learner experience."
         },
         {
           "type": "image",
@@ -474,7 +474,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Moving from problem to prototype: I wrote the Week 4 application activity, which guided students in turning a community problem and proposed solution into a simple prototype. Students identified the problem, described their solution, considered the resources and steps they would need, anticipated possible challenges, and created an initial version of their idea. This activity gave students a practical way to apply the design-thinking process to a problem in their own community."
+          "text": "Moving from problem to prototype: I wrote the Week 4 application activity, which guided students in turning a community problem and proposed solution into a simple prototype. Students described their problem and solution, identified needed resources and steps, anticipated challenges, and created an initial version of their idea. The activity gave students a practical way to apply design thinking to their own communities."
         },
         {
           "type": "image",
@@ -484,7 +484,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Teaching students how to test and improve: I wrote the Week 5 instruction that introduced students to the purpose of prototype testing and guided them through gathering feedback, reflecting on what they learned, and improving their solutions. I emphasized that testing is not about proving an idea is perfect. It is a way to discover what works, identify unexpected challenges, and make the solution more useful and realistic. The infographic shown with the instruction was created by another teammate, while I wrote the instructional content."
+          "text": "Teaching students how to test and improve: I wrote the Week 5 instruction on prototype testing, feedback, reflection, and improvement. I emphasized that testing helps students discover what works, identify challenges, and make their solutions more useful and realistic. Another teammate created the infographic, while I wrote the instructional content."
         },
         {
           "type": "image",
@@ -494,7 +494,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Explaining the learning outcomes and purpose: I presented the learning outcomes and purpose section of our final presentation to the BYU-Pathway client. I explained how our proposed redesign addressed the three goals we had been given: helping students learn more effectively, develop problem-solving skills, and find or create opportunities to earn a living. Presenting this section required me to connect the client’s broad goals to the specific learning outcomes and direction we had developed for the course project."
+          "text": "Explaining the learning outcomes and purpose: I presented the learning outcomes and purpose section of our final presentation to the BYU-Pathway client. I connected the proposed redesign to the three client goals and explained how our learning outcomes addressed them."
         },
         {
           "type": "image",
@@ -508,15 +508,15 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "A broad request needs a clear design structure. BYU-Pathway gave our team three broad goals for revising the PC102 project, but they did not prescribe a specific instructional strategy or project structure. Creating the design document helped us clarify the purpose, instructional gaps, and target learners. We then used design thinking and the Know, Do, Become framework to turn those broad goals into a clear direction for the redesign. This process gave our team a shared structure for making decisions as the project developed."
+          "text": "A broad request needs a clear design structure. Broad goals become actionable when designers clarify the purpose, instructional gaps, target learners, and design direction before choosing strategies or activities."
         },
         {
           "type": "text",
-          "text": "Project-based learning connects learning to meaningful action. We designed the PC102 project so students could apply course concepts to a real need in their own communities. Rather than completing isolated assignments, students developed one project over several weeks by identifying a problem, creating a solution, testing their ideas, and communicating what they learned. I learned that project-based learning can make instruction more meaningful when students have a clear process, opportunities to make decisions, and a direct connection between their learning and their lives."
+          "text": "Project-based learning connects learning to meaningful action. Project-based learning is most meaningful when learners apply concepts to real problems, develop and test solutions, and communicate what they discover."
         },
         {
           "type": "text",
-          "text": "Global learners need flexibility, not a one-size-fits-all project. PC102 serves students with different cultural, language, educational, technological, and work backgrounds. I learned that a meaningful project needs to provide structure while still giving students room to identify problems and develop solutions that fit their own communities and circumstances."
+          "text": "Global learners need flexibility, not a one-size-fits-all project. Designing for global learners requires enough structure to guide progress while allowing learners to adapt projects to their communities, circumstances, and resources."
         }
       ]
     },
@@ -530,31 +530,27 @@ window.portfolioContent = {
       "id": "uos",
       "title": "From Student Needs to Flexible Digital Experiences",
       "subtitle": "Utah Online School Website Redesign and Mobile App Prototype",
-      "lede": "In my Digital Interface Design course, I created a redesigned website prototype for Utah Online School and designed a prototype mobile app. In my work with UOS, several students have asked whether they could complete their coursework on a phone, which led me to explore how a mobile experience might support their needs. These prototypes were created independently as course projects and were not commissioned by UOS.",
+      "lede": "For my Digital Interface Design course, I created a redesigned website prototype for Utah Online School and a mobile app prototype. In my work with UOS, students had asked about login issues and completing coursework on a phone, which led me to explore how clearer desktop and mobile experiences could support them. These were independent course projects and were not commissioned by UOS.",
       "content": [
         {
           "type": "text",
-          "text": "In my Digital Interface Design course, I created a redesigned website prototype for Utah Online School and designed a prototype mobile app. In my work with UOS, several students have asked whether they could complete their coursework on a phone, which led me to explore how a mobile experience might support their needs. These prototypes were created independently as course projects and were not commissioned by UOS."
+          "text": "For my Digital Interface Design course, I created a redesigned website prototype for Utah Online School and a mobile app prototype. In my work with UOS, students had asked about login issues and completing coursework on a phone, which led me to explore how clearer desktop and mobile experiences could support them. These were independent course projects and were not commissioned by UOS."
         },
         {
           "type": "text",
-          "text": "The course emphasized user experience design, interface design, evaluation, and the use of digital design tools. I used Adobe Illustrator extensively to develop the interface visuals, layouts, icons, and other design elements."
+          "text": "The problem: The existing UOS website provided important information and access points, but its visual hierarchy and navigation could be clearer. I saw opportunities to make actions such as logging in and enrolling easier to find and create a more consistent experience across desktop and mobile contexts."
         },
         {
           "type": "text",
-          "text": "The problem: In my work with UOS, students have often asked questions about login issues and whether they could complete their coursework on a phone. These questions helped me think about the experience from the student’s perspective and identify opportunities to make important actions easier to find. The existing UOS website provided important information and access points for students and families, but I saw opportunities to improve its visual hierarchy, clarify actions such as logging in and enrolling, and create a more consistent interface experience."
+          "text": "The solution: I created a website redesign prototype and a mobile app prototype. The website included a public homepage, enrollment access, login, messaging, calendar, profile, and a student dashboard. The mobile app explored sign-in, class access, progress, and course information. Together, the prototypes explored a more consistent student experience across platforms."
         },
         {
           "type": "text",
-          "text": "The solution: I created a website redesign prototype and a mobile app prototype. The website prototype included a public homepage, enrollment access, login, navigation, messaging, calendar, profile, and a student dashboard. The mobile app prototype explored how students could sign in, view classes, monitor progress, and access course information from their phones. Together, the prototypes explored how UOS could provide a more consistent experience across desktop and mobile contexts."
+          "text": "My role: I completed both projects independently for my Digital Interface Design course. I examined the existing UOS website, developed interface layouts and a visual system, designed the dashboard and mobile screens, and created and refined interface elements in Adobe Illustrator. I also conducted a user walkthrough during the class presentation to explain how a student could move through the interfaces and access key functions."
         },
         {
           "type": "text",
-          "text": "My role: I completed the website redesign and mobile app prototype as individual projects for my Digital Interface Design course. I examined the existing UOS website, developed new interface layouts, created the visual system, designed the dashboard and mobile screens, and used Adobe Illustrator to create and refine the interface elements. I also conducted a user walkthrough of the website and mobile app prototypes as part of the class presentation. I explained how a student could move through the interfaces and access key functions, which helped me evaluate the clarity of the navigation, screen sequence, and user experience."
-        },
-        {
-          "type": "text",
-          "text": "Skills demonstrated: User experience design, digital interface design, website redesign, mobile app prototyping, interface prototyping, Adobe Illustrator, visual design, information architecture, user walkthroughs, interface evaluation, platform-specific design, and iterative design."
+          "text": "Skills demonstrated: User experience design, digital interface design, website redesign, mobile app prototyping, information architecture, Adobe Illustrator, visual design, user walkthroughs, interface evaluation, platform-specific design, and iterative design."
         },
         {
           "type": "text",
@@ -562,7 +558,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Examining the existing UOS website: This screenshot shows the existing UOS homepage that I used as the starting point for my redesign. The site communicates UOS’s identity and provides access to enrollment, help, student information, and other resources. At the same time, several navigation paths and calls to action compete for attention within the homepage. Examining the existing experience helped me identify opportunities to create clearer visual hierarchy, prioritize important actions, and develop a more consistent interface."
+          "text": "Examining the existing UOS website: This screenshot shows the existing UOS homepage that I used as the starting point for my redesign. The site provided access to enrollment, help, student information, and other resources, but several navigation paths and calls to action competed for attention. Examining the existing experience helped me identify opportunities to improve hierarchy, prioritize important actions, and create a more consistent interface."
         },
         {
           "type": "image",
@@ -572,7 +568,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Redesigning the public website experience: I redesigned the UOS homepage to create a clearer visual hierarchy and make important actions easier for students to find. I simplified the navigation and gave actions such as logging in and enrolling a more prominent position. I also used a focused hero section to communicate UOS’s message of individual growth and created a visual system that could extend across the website, dashboard, and mobile app prototype. These decisions reflected my goal of reducing confusion and making the experience easier for students to navigate."
+          "text": "Redesigning the public website experience: I redesigned the homepage to create a clearer visual hierarchy and make important actions easier to find. I simplified the navigation, made login and enrollment more prominent, and created a focused hero section to communicate UOS’s message of individual growth. I also developed a visual system that could extend across the website, dashboard, and mobile app prototype."
         },
         {
           "type": "image",
@@ -582,7 +578,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Designing the logged-in dashboard: I designed this dashboard as part of the website redesign to give students an overview of their coursework and activity after logging in. I organized classes, progress indicators, reminders, to-do items, time spent, and navigation in one screen so students could quickly understand what required their attention. Designing the dashboard required me to balance the amount of information available with the need to keep the interface clear and approachable."
+          "text": "Designing the logged-in dashboard: I designed the dashboard to give students an overview of their coursework and activity after logging in. I organized classes, progress indicators, reminders, to-do items, time spent, and navigation in one screen so students could quickly understand what required their attention. This required balancing the amount of information available with the need to keep the interface clear."
         },
         {
           "type": "image",
@@ -592,7 +588,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Designing supporting website pages: I extended the visual system beyond the homepage and dashboard to create practical pages for students. The Messages page supports communication with teachers and classmates, while the Calendar page helps students organize important dates and coursework. Both pages use the same navigation, colors, typography, and layout patterns, helping the website feel like one connected experience."
+          "text": "Designing supporting website pages: I extended the visual system beyond the homepage and dashboard to create practical student pages. The Messages page supports communication with teachers and classmates, while the Calendar page helps students organize important dates and coursework. Both pages use consistent navigation, colors, typography, and layout patterns."
         },
         {
           "type": "image",
@@ -608,7 +604,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Designing the mobile app prototype: Because several UOS students have asked whether they could complete coursework on a phone, I explored how a mobile app could extend the UOS experience. I designed onboarding and sign-in screens that introduce the app, distinguish between signing up and signing in, and keep the primary actions easy to identify on a smaller screen. I carried the website’s UOS branding, color palette, typography, and visual patterns into the prototype so the mobile experience felt connected to the larger system."
+          "text": "Designing the mobile app prototype: I explored how a mobile app could extend the UOS experience for students using phones. I designed onboarding and sign-in screens that distinguish between signing up and signing in while keeping the primary actions easy to identify on a smaller screen. I carried the website’s branding, color palette, typography, and visual patterns into the prototype so the mobile experience felt connected to the larger system."
         },
         {
           "type": "image",
@@ -622,15 +618,15 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Redesign begins with understanding the existing experience. Examining the current UOS website showed me that redesign is more than creating an appealing replacement. I needed to understand what the existing site communicated, what it prioritized, and where the interface could be clearer and more focused."
+          "text": "Redesign begins with understanding the existing experience. Effective redesign starts with examining what an interface communicates, prioritizes, and makes difficult to find."
         },
         {
           "type": "text",
-          "text": "User experience includes information hierarchy and task prioritization. Designing the homepage and dashboard required me to decide what students should notice first, what actions should be easiest to access, and how information could be organized without overwhelming the user. I learned that effective interface design depends not only on visual appeal, but also on helping users understand where they are and what they can do next."
+          "text": "User experience includes information hierarchy and task prioritization. Effective interface design helps users understand where they are, what matters most, and what they can do next."
         },
         {
           "type": "text",
-          "text": "Empathy helps me design from the student’s perspective. Students’ questions about login issues and completing coursework on a phone helped me think about where they might experience confusion or uncertainty. I used that perspective when organizing navigation, prioritizing important actions, and exploring a mobile app prototype. This project reminded me that empathy means considering not only what an interface can do, but also how clear and manageable it feels for the student using it."
+          "text": "Empathy helps me design from the student’s perspective. Considering users’ questions and uncertainties can reveal opportunities to make interfaces clearer and more manageable."
         }
       ]
     }
