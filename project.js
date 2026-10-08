@@ -16,6 +16,10 @@ document.querySelector("#projectLede").textContent = textItems[0].text;
 document.querySelector("#projectProcessHeading").textContent = processHeadingItem?.text || "How I approached the project";
 
 const projectIntroVisuals = {
+  geo: {
+    src: "assets/web/geo-course-hero.png",
+    alt: "BYU-Pathway Worldwide employee onboarding course showing a diverse group of students"
+  },
   field: {
     src: "assets/web/uganda-field-interview.jpg",
     alt: "Interview in Uganda during the Kenya and Uganda field research project"
