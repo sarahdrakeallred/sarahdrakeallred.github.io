@@ -1475,7 +1475,7 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 
 .project-page .full-carousel-body .full-carousel-frame {
   width: 100% !important;
-  height: clamp(230px, 62vw, 640px) !important;
+  height: clamp(260px, 36vw, 420px) !important;
   min-height: 230px !important;
 }
 
@@ -1505,7 +1505,7 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   align-self: start !important;
   width: 48px !important;
   height: 48px !important;
-  margin-top: calc(clamp(230px, 62vw, 640px) / 2 - 24px) !important;
+  margin-top: calc(clamp(260px, 36vw, 420px) / 2 - 24px) !important;
   border: 1px solid var(--ink) !important;
   background: transparent !important;
   color: var(--ink) !important;
@@ -1529,7 +1529,7 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   .project-page .full-carousel-stage > .carousel-side-control {
     width: 40px !important;
     height: 40px !important;
-    margin-top: calc(clamp(230px, 62vw, 640px) / 2 - 20px) !important;
+    margin-top: calc(clamp(260px, 36vw, 420px) / 2 - 20px) !important;
     font-size: 18px !important;
   }
 }
@@ -1537,14 +1537,14 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 /* Final project-page cleanup: keep the process story compact and balanced. */
 @media (min-width: 901px) {
   .project-page .project-process {
-    padding-top: 78px;
-    padding-bottom: 82px;
+    padding-top: 48px !important;
+    padding-bottom: 60px !important;
   }
 
   .project-page .project-process > h2,
   .project-page .project-section-heading {
     max-width: 900px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     font-size: clamp(2.7rem, 4.4vw, 4.7rem);
   }
 
