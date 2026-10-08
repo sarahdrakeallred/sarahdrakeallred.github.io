@@ -15,6 +15,21 @@ document.querySelector("#projectSubtitle").textContent = project.subtitle;
 document.querySelector("#projectLede").textContent = textItems[0].text;
 document.querySelector("#projectProcessHeading").textContent = processHeadingItem?.text || "How I approached the project";
 
+const projectIntroVisuals = {
+  geo: {
+    src: "assets/web/geo-field-interview.jpg",
+    alt: "Interview in Uganda during the Kenya and Uganda field research project"
+  }
+};
+const projectIntroVisual = document.querySelector("#projectIntroVisual");
+const projectIntroImage = document.querySelector("#projectIntroImage");
+const introVisual = projectIntroVisuals[project.id] || contentItems.find((item) => item.type === "image");
+if (introVisual) {
+  projectIntroImage.src = introVisual.src;
+  projectIntroImage.alt = introVisual.alt;
+  projectIntroVisual.hidden = false;
+}
+
 function textForLabel(label) {
   const item = textItems.find((entry) => entry.text.startsWith(`${label}:`));
   return item ? item.text.slice(label.length + 1).trim() : "";

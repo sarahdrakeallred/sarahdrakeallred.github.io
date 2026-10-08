@@ -1338,6 +1338,79 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   }
 }
 
+/* Project-page intro: shorter titles with a supporting visual on the right. */
+.project-intro-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(300px, .75fr);
+  gap: clamp(40px, 6vw, 96px);
+  align-items: center;
+  margin-bottom: 54px;
+}
+
+.project-intro-copy {
+  min-width: 0;
+}
+
+.project-intro h1 {
+  max-width: 840px;
+  margin-bottom: 16px;
+  font-size: clamp(2.9rem, 4.2vw, 4.8rem);
+  line-height: .96;
+  text-wrap: balance;
+}
+
+.project-intro .project-subtitle {
+  max-width: 760px;
+}
+
+.project-intro .project-lede {
+  max-width: 700px;
+  margin-bottom: 0;
+}
+
+.project-intro-visual {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--paper-dark);
+}
+
+.project-intro-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: var(--paper-dark);
+}
+
+.project-intro-grid {
+  margin-top: 0;
+}
+
+@media (max-width: 900px) {
+  .project-intro-layout {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .project-intro-visual {
+    max-width: 640px;
+  }
+}
+
+@media (max-width: 620px) {
+  .project-intro-layout {
+    gap: 28px;
+    margin-bottom: 44px;
+  }
+
+  .project-intro h1 {
+    font-size: clamp(2.75rem, 12vw, 4.5rem);
+  }
+}
+
 /* Approved full-bleed process visuals: let each artifact lead the story. */
 .project-page .carousel-image-link {
   cursor: zoom-in;
@@ -1365,8 +1438,8 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 
 .project-page .full-carousel-body .full-carousel-frame {
   width: 100% !important;
-  height: max(360px, min(52vh, 520px)) !important;
-  min-height: 360px !important;
+  height: clamp(230px, 62vw, 640px) !important;
+  min-height: 230px !important;
 }
 
 .project-page .full-carousel-body .full-carousel-caption {
@@ -1395,7 +1468,7 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   align-self: start !important;
   width: 48px !important;
   height: 48px !important;
-  margin-top: calc(max(360px, min(52vh, 520px)) / 2 - 24px) !important;
+  margin-top: calc(clamp(230px, 62vw, 640px) / 2 - 24px) !important;
   border: 1px solid var(--ink) !important;
   background: transparent !important;
   color: var(--ink) !important;
@@ -1416,15 +1489,10 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     gap: 8px !important;
   }
 
-  .project-page .full-carousel-body .full-carousel-frame {
-    height: max(230px, min(62vw, 330px)) !important;
-    min-height: 230px !important;
-  }
-
   .project-page .full-carousel-stage > .carousel-side-control {
     width: 40px !important;
     height: 40px !important;
-    margin-top: calc(max(230px, min(62vw, 330px)) / 2 - 20px) !important;
+    margin-top: calc(clamp(230px, 62vw, 640px) / 2 - 20px) !important;
     font-size: 18px !important;
   }
 }
