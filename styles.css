@@ -1752,6 +1752,30 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   }
 }
 
+/* Compact homepage contact cards. */
+.homepage-contact-links .contact-card {
+  min-height: 160px;
+  padding: 20px 24px;
+}
+
+.homepage-contact-links .contact-card strong {
+  font-size: clamp(1rem, 1.4vw, 1.4rem);
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+@media (max-width: 620px) {
+  .homepage-contact-links .contact-card {
+    min-height: 150px;
+    padding: 18px;
+  }
+
+  .homepage-contact-links .contact-card strong {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+}
+
 /* Approved proportionate scale: preserve typography while keeping the layouts compact. */
 .section-pad {
   padding-inline: clamp(24px, 7vw, 112px);
