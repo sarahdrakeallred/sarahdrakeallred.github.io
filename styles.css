@@ -1338,12 +1338,49 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   }
 }
 
+/* Final project-page intro adjustment: smaller title and larger supporting image. */
+.project-page .project-intro-layout {
+  grid-template-columns: minmax(0, 1fr) minmax(480px, .95fr);
+  gap: clamp(42px, 5vw, 82px);
+  align-items: start;
+}
+
+.project-page .project-intro h1 {
+  max-width: 900px;
+  margin-bottom: 16px;
+  font-size: clamp(2.7rem, 3.5vw, 4.2rem) !important;
+  line-height: .96;
+}
+
+.project-page .project-intro-visual {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+  .project-page .project-intro-layout {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .project-page .project-intro-visual {
+    max-width: 640px;
+  }
+}
+
+@media (max-width: 620px) {
+  .project-page .project-intro h1 {
+    font-size: clamp(2.65rem, 11vw, 4.2rem) !important;
+  }
+}
+
 /* Project-page intro: shorter titles with a supporting visual on the right. */
 .project-intro-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(300px, .75fr);
-  gap: clamp(40px, 6vw, 96px);
-  align-items: center;
+  grid-template-columns: minmax(0, 1.05fr) minmax(420px, .95fr);
+  gap: clamp(40px, 5vw, 76px);
+  align-items: start;
   margin-bottom: 54px;
 }
 
@@ -1352,9 +1389,9 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 }
 
 .project-intro h1 {
-  max-width: 840px;
+  max-width: 900px;
   margin-bottom: 16px;
-  font-size: clamp(2.9rem, 4.2vw, 4.8rem);
+  font-size: clamp(2.75rem, 3.8vw, 4.35rem) !important;
   line-height: .96;
   text-wrap: balance;
 }
@@ -1371,7 +1408,7 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 .project-intro-visual {
   width: 100%;
   aspect-ratio: 3 / 2;
-  margin: 0;
+  margin: 8px 0 0;
   overflow: hidden;
   border: 1px solid var(--line);
   background: var(--paper-dark);
