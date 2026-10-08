@@ -16,8 +16,8 @@ document.querySelector("#projectLede").textContent = textItems[0].text;
 document.querySelector("#projectProcessHeading").textContent = processHeadingItem?.text || "How I approached the project";
 
 const projectIntroVisuals = {
-  geo: {
-    src: "assets/web/geo-field-interview.jpg",
+  field: {
+    src: "assets/web/uganda-field-interview.jpg",
     alt: "Interview in Uganda during the Kenya and Uganda field research project"
   }
 };
