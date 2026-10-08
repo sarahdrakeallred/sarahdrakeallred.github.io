@@ -2763,6 +2763,13 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   background: var(--paper);
 }
 
+/* Keep the final solution and lessons sections closer together. */
+.project-page .project-support,
+.project-page .project-lessons {
+  padding-top: 36px;
+  padding-bottom: 44px;
+}
+
 /* Keep all project-page body copy at the same readable size. */
 .project-page .project-lede,
 .project-page .intro-block p:last-child,
@@ -2839,7 +2846,7 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 @media (min-width: 901px) {
   .project-page .project-intro h1 {
     max-width: 980px;
-    font-size: clamp(3.8rem, 6.3vw, 6.5rem);
+    font-size: clamp(3.8rem, 6.3vw, 6.5rem) !important;
     line-height: .94;
   }
 
@@ -2851,6 +2858,10 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 }
 
 @media (max-width: 900px) {
+  .project-page .project-intro h1 {
+    font-size: clamp(2.75rem, 12vw, 4.5rem) !important;
+  }
+
   .project-page .project-process > h2,
   .project-page .project-section-heading {
     font-size: clamp(2.1rem, 6vw, 3.4rem);
