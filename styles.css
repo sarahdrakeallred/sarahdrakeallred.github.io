@@ -2767,8 +2767,12 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 .project-page .project-process,
 .project-page .project-support,
 .project-page .project-lessons {
-  padding-top: 40px !important;
-  padding-bottom: 40px !important;
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+}
+
+.project-page .project-lessons {
+  padding-bottom: 56px !important;
 }
 
 /* Keep all project-page body copy at the same readable size. */
@@ -2845,6 +2849,15 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 
 /* Make the project title the clear primary heading. */
 @media (min-width: 901px) {
+  .project-page .project-intro-layout {
+    align-items: center;
+  }
+
+  .project-page .project-intro-visual {
+    border: 0;
+    background: transparent;
+  }
+
   .project-page .project-intro h1 {
     max-width: 980px;
     font-size: clamp(3.2rem, 5.2vw, 5.4rem) !important;
@@ -2868,6 +2881,11 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     font-size: clamp(2.1rem, 6vw, 3.4rem);
     line-height: .98;
   }
+}
+
+.project-page .project-intro-visual {
+  border: 0;
+  background: transparent;
 }
 
 @media (min-width: 701px) {
