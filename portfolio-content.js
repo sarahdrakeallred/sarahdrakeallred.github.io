@@ -534,7 +534,7 @@ window.portfolioContent = {
       "content": [
         {
           "type": "text",
-          "text": "For my Digital Interface Design course, I created a redesigned website prototype for Utah Online School and a mobile app prototype. In my work with UOS, students had asked about login issues and completing coursework on a phone, which led me to explore how clearer desktop and mobile experiences could support them. These were independent course projects and were not commissioned by UOS."
+          "text": "For my Digital Interface Design course, I created a redesigned website prototype for Utah Online School (UOS) and a mobile app prototype. In my work with UOS, students had asked about login issues and completing coursework on a phone, which led me to explore how clearer desktop and mobile experiences could support them. These were independent course projects and were not commissioned by UOS."
         },
         {
           "type": "text",
