@@ -360,7 +360,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Producing and editing the videos: This Unit 4 opening video is one of four instructional videos I created for the course. It introduces Unit 4 and prepares teachers to reflect on their classroom practice. I designed visuals in Canva and edited the video in Premiere Pro, combining them with on-screen text, captions, narration, and background audio. I refined the narration, pacing, and final presentation to meet the client’s requirements."
+          "text": "Producing and editing the videos: This screenshot shows my Premiere Pro project for the Unit 4 opening video. I assembled Canva-designed visuals, on-screen text, captions, narration, and background audio, then refined the pacing and presentation to prepare teachers to reflect on their classroom practice."
         },
         {
           "type": "image",
