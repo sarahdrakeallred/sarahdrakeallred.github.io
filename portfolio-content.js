@@ -9,8 +9,8 @@ window.portfolioContent = {
         "Stakeholder collaboration"
       ],
       "id": "geo",
-      "title": "BYU-Pathway Worldwide Employee Onboarding",
-      "subtitle": "Creating a Shared Starting Point for GEO",
+      "title": "From organizational complexity to a shared starting point",
+      "subtitle": "BYU-Pathway Employee Onboarding",
       "lede": "I designed and developed a department-specific onboarding experience for Global Engagement & Operations (GEO) at BYU-Pathway Worldwide. The project resulted in a four-module, twelve-lesson Articulate Rise course supported by four videos, an organizational chart, a GEO Onboarding Reference Guide, and a shareable Rise link.",
       "content": [
         {
@@ -404,7 +404,7 @@ window.portfolioContent = {
         "Learner agency"
       ],
       "id": "pc",
-      "title": "From an Entrepreneurial Group Project to a Community Problem-Solving Experience",
+      "title": "From group work to individual problem-solving",
       "subtitle": "Redesigning the PC102 Course Project",
       "lede": "As part of an advanced instructional design course, I helped redesign the major project in BYU-Pathway’s PathwayConnect 102 course. The original project emphasized group entrepreneurship. Our team proposed an individual, community-based project in which students would identify a need, develop and test a solution, communicate their results, and reflect on what they learned.",
       "content": [
