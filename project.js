@@ -31,6 +31,10 @@ const projectIntroVisuals = {
   pc: {
     src: "assets/web/pc102-hero.png",
     alt: "PC102 project schedule and Know, Do, Become framework"
+  },
+  uos: {
+    src: "assets/web/image34.jpg",
+    alt: "Utah Online School redesigned calendar page"
   }
 };
 const hasStandaloneHero = Boolean(projectIntroVisuals[project.id]);
