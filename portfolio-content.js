@@ -558,7 +558,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Examining the existing UOS website: This screenshot shows the existing UOS homepage that I used as the starting point for my redesign. The site provided access to enrollment, help, student information, and other resources, but several navigation paths and calls to action competed for attention. Examining the existing experience helped me identify opportunities to improve hierarchy, prioritize important actions, and create a more consistent interface."
+          "text": "Examining the existing UOS website: This screenshot shows the existing UOS homepage that I used as the starting point for my redesign. The site provided access to enrollment, student information, and other resources, but several navigation paths and calls to action competed for attention. Examining the existing experience helped me identify opportunities to improve hierarchy, prioritize important actions, and create a more consistent interface."
         },
         {
           "type": "image",
