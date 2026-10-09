@@ -23,6 +23,10 @@ const projectIntroVisuals = {
   field: {
     src: "assets/web/kenya-uganda-hero.jpg",
     alt: "Field research interview in Uganda during the Kenya and Uganda experiential learning project"
+  },
+  argossey: {
+    src: "assets/web/argossey-hero.png",
+    alt: "Argossey classroom learning experience with a teacher supporting a student"
   }
 };
 const projectIntroVisual = document.querySelector("#projectIntroVisual");
@@ -77,7 +81,6 @@ processItems.forEach((item) => {
 });
 
 const lightboxItems = [
-  ...(introVisual ? [{ src: introVisual.src, alt: introVisual.alt }] : []),
   ...slides
     .filter((item) => item.type === "image")
     .map((item) => ({ src: item.src, alt: item.alt }))

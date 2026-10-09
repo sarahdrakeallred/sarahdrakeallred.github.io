@@ -30,7 +30,7 @@
               <p class="project-lede" id="projectLede"></p>
             </div>
             <figure class="project-intro-visual" id="projectIntroVisual" hidden>
-              <a class="project-intro-visual-link" id="projectIntroVisualLink" href="assets/web/uganda-field-interview.jpg" data-lightbox-trigger aria-label="Enlarge the project hero image">
+              <a class="project-intro-visual-link" id="projectIntroVisualLink" href="assets/web/uganda-field-interview.jpg" data-hero-lightbox-trigger aria-label="Enlarge the project hero image">
                 <img id="projectIntroImage" src="assets/web/uganda-field-interview.jpg" alt="" />
               </a>
             </figure>
@@ -92,8 +92,17 @@
       </div>
     </dialog>
 
+    <dialog class="image-lightbox hero-image-lightbox" id="heroImageLightbox" aria-labelledby="heroLightboxLabel">
+      <div class="image-lightbox-inner">
+        <button class="image-lightbox-close" type="button" data-hero-lightbox-close aria-label="Close enlarged project hero image">×</button>
+        <p class="visually-hidden" id="heroLightboxLabel">Enlarged project hero image</p>
+        <img id="heroLightboxImage" class="image-lightbox-image" src="assets/web/uganda-field-interview.jpg" alt="" />
+      </div>
+    </dialog>
+
     <script src="portfolio-content.js"></script>
     <script src="project.js"></script>
     <script src="lightbox.js"></script>
+    <script src="hero-lightbox.js"></script>
   </body>
 </html>
