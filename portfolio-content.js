@@ -370,7 +370,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Delivering a finished video: This Unit 4 opening video is one of the four videos I created for the course. It introduces Unit 4 and prepares teachers to reflect on their classroom practice. I applied my judgment to the narration, visual design, audio, pacing, and final presentation while meeting the client’s requirements."
+          "text": "Delivering a finished video: This Unit 4 opening video is one of the four videos I created for the course. I edited it in Premiere Pro to introduce Unit 4 and prepare teachers to reflect on their classroom practice. I applied my judgment to the narration, visual design, audio, pacing, and final presentation while meeting the client’s requirements."
         },
         {
           "type": "video",
@@ -422,7 +422,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "My role: I was one of two project managers. I coordinated a team of undergraduate students, divided responsibilities, tracked progress, and met with the BYU-Pathway client. I also wrote instructional components for Weeks 4–7 and helped present the proposed redesign to the client."
+          "text": "My role: I was one of two project managers. I coordinated a team of undergraduate students, divided responsibilities, tracked progress, and met with the BYU-Pathway client. I also wrote instructional components and helped present the proposed redesign to the client."
         },
         {
           "type": "text",
@@ -464,7 +464,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Coordinating the team’s work: As one of two project managers, I divided responsibilities across the team and tracked ownership of each instructional component. The assignment map shows my contributions to the Week 4 solution-outline activity and Week 5 instruction on testing, feedback, and improvement. Managing the team while developing content helped me practice project management without losing sight of the learner experience."
+          "text": "Coordinating the team’s work: As one of two project managers, I helped coordinate team responsibilities and track ownership of each instructional component. The assignment map shows my contributions to the Week 4 solution-outline activity and Week 5 instruction on testing, feedback, and improvement. Coordinating the project while developing content helped me practice project management without losing sight of the learner experience."
         },
         {
           "type": "image",
@@ -550,7 +550,7 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Skills demonstrated: User experience design, digital interface design, website redesign, mobile app prototyping, information architecture, Adobe Illustrator, visual design, user walkthroughs, interface evaluation, platform-specific design, and iterative design."
+          "text": "Skills demonstrated: User experience design, digital interface design, website redesign, mobile app prototyping, information architecture, Adobe Illustrator, visual design, user walkthroughs, interface evaluation, desktop and mobile interface design, and iterative design."
         },
         {
           "type": "text",
