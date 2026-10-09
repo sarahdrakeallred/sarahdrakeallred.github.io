@@ -9,6 +9,13 @@ const finalSolutionHeadingIndex = contentItems.findIndex((item) => item.type ===
 const lessonsHeadingIndex = contentItems.findIndex((item) => item.type === "text" && item.text.trim().toLowerCase() === "design lessons learned");
 
 document.title = `${project.title} — Sarah Drake Allred`;
+const descriptionMeta = document.querySelector('meta[name="description"]');
+if (descriptionMeta) {
+  descriptionMeta.setAttribute(
+    "content",
+    `${project.title}. ${project.subtitle}. ${project.lede}`
+  );
+}
 document.querySelector("#projectKicker").textContent = project.kicker;
 document.querySelector("#projectTitle").textContent = project.title;
 document.querySelector("#projectSubtitle").textContent = project.subtitle;
