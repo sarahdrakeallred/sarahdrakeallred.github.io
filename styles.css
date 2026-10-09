@@ -1376,6 +1376,68 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   }
 }
 
+/* Homepage contact section: plain email text with one LinkedIn link. */
+.contact-section h2 {
+  margin-bottom: 0;
+}
+
+.homepage-contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.homepage-contact-email {
+  max-width: 100%;
+  margin: 34px 0 12px;
+  color: var(--ink);
+  font: 500 clamp(1.15rem, 2vw, 1.45rem)/1.35 var(--serif);
+  overflow-wrap: anywhere;
+}
+
+.homepage-linkedin {
+  display: inline-flex;
+  min-width: 44px;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 0 8px;
+  color: var(--ink);
+  font: 500 13px var(--sans);
+  text-decoration: none;
+  transition: color .2s ease;
+}
+
+.homepage-linkedin-mark {
+  display: inline-flex;
+  width: 23px;
+  height: 23px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  background: var(--ink);
+  color: var(--paper);
+  font: 500 14px/1 var(--sans);
+  letter-spacing: -.06em;
+  transition: background .2s ease;
+}
+
+.homepage-linkedin:hover {
+  color: var(--orange);
+}
+
+.homepage-linkedin:hover .homepage-linkedin-mark {
+  background: var(--orange);
+}
+
+.homepage-linkedin:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 4px;
+}
+
 /* Final project-page intro adjustment: smaller title and larger supporting image. */
 .project-page .project-intro-layout {
   grid-template-columns: minmax(0, 1fr) minmax(480px, .95fr);
@@ -2963,10 +3025,8 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   }
 
   .project-page .project-intro-visual {
-    border: 1px solid var(--line);
-    background: var(--paper-dark);
-    padding: clamp(12px, 2vw, 24px);
-    box-sizing: border-box;
+    border: 0;
+    background: transparent;
   }
 
   .project-page .project-intro h1 {
@@ -2995,10 +3055,8 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 }
 
 .project-page .project-intro-visual {
-  border: 1px solid var(--line);
-  background: var(--paper-dark);
-  padding: clamp(12px, 2vw, 24px);
-  box-sizing: border-box;
+  border: 0;
+  background: transparent;
 }
 
 @media (min-width: 701px) {
