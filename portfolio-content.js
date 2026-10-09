@@ -230,7 +230,7 @@ window.portfolioContent = {
         },
         {
           "type": "image",
-          "src": "assets/web/image13.jpg",
+          "src": "assets/web/kenya-uganda-student-journey-map.png",
           "alt": "Translating research into a student resource",
           "caption": "Translating research into a student resource"
         },
@@ -240,7 +240,7 @@ window.portfolioContent = {
         },
         {
           "type": "image",
-          "src": "assets/web/image14.jpg",
+          "src": "assets/web/kenya-uganda-resource-church-leaders.png",
           "alt": "Designing support for Church leaders",
           "caption": "Designing support for Church leaders"
         },
