@@ -146,15 +146,15 @@ window.portfolioContent = {
         },
         {
           "type": "text",
-          "text": "Build understanding before details. Learners needed a mental model of BYU-Pathway’s purpose, students, and structure before they could understand GEO and their roles."
+          "text": "Build understanding before introducing details. A clear picture of the larger purpose and structure helps people make sense of specific details and responsibilities."
         },
         {
           "type": "text",
-          "text": "Empathy shapes design. Learners’ different backgrounds influenced the course outcomes, shared foundation, and content structure."
+          "text": "Use empathy to guide design decisions. Learners’ backgrounds, prior knowledge, and needs should inform the outcomes, examples, and structure of a learning experience."
         },
         {
           "type": "text",
-          "text": "A shared foundation is not one-size-fits-all training. I learned to create a common starting point while acknowledging differences in learners’ backgrounds and needs."
+          "text": "Create a shared foundation that respects learner differences. A common starting point can establish essential knowledge while still allowing for different backgrounds and support needs."
         }
       ]
     },
