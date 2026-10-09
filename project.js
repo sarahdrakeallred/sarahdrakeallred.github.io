@@ -33,6 +33,7 @@ const projectIntroVisuals = {
     alt: "PC102 project schedule and Know, Do, Become framework"
   }
 };
+const hasStandaloneHero = Boolean(projectIntroVisuals[project.id]);
 const projectIntroVisual = document.querySelector("#projectIntroVisual");
 const projectIntroVisualLink = document.querySelector("#projectIntroVisualLink");
 const projectIntroImage = document.querySelector("#projectIntroImage");
@@ -75,7 +76,7 @@ function splitProcessText(text, fallback) {
 }
 
 processItems.forEach((item) => {
-  if (item.type === "image" && introVisual && item.src === introVisual.src) {
+  if (hasStandaloneHero && item.type === "image" && introVisual && item.src === introVisual.src) {
     pendingStory = "";
     return;
   }
