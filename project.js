@@ -27,6 +27,10 @@ const projectIntroVisuals = {
   argossey: {
     src: "assets/web/argossey-hero.png",
     alt: "Argossey classroom learning experience with a teacher supporting a student"
+  },
+  pc: {
+    src: "assets/web/pc102-hero.png",
+    alt: "PC102 project schedule and Know, Do, Become framework"
   }
 };
 const projectIntroVisual = document.querySelector("#projectIntroVisual");
@@ -71,6 +75,11 @@ function splitProcessText(text, fallback) {
 }
 
 processItems.forEach((item) => {
+  if (item.type === "image" && introVisual && item.src === introVisual.src) {
+    pendingStory = "";
+    return;
+  }
+
   if (item.type === "image" || item.type === "video") {
     const processText = splitProcessText(pendingStory, item.caption);
     slides.push({ ...item, ...processText });

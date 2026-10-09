@@ -438,7 +438,7 @@ window.portfolioContent = {
         },
         {
           "type": "image",
-          "src": "assets/web/image23.jpg",
+          "src": "assets/web/pc102-design-questions.png",
           "alt": "Turning client feedback into design questions",
           "caption": "Turning client feedback into design questions"
         },
@@ -448,7 +448,7 @@ window.portfolioContent = {
         },
         {
           "type": "image",
-          "src": "assets/web/image24.jpg",
+          "src": "assets/web/pc102-design-document.png",
           "alt": "Creating a shared design foundation",
           "caption": "Creating a shared design foundation"
         },
@@ -458,7 +458,7 @@ window.portfolioContent = {
         },
         {
           "type": "image",
-          "src": "assets/web/image25.jpg",
+          "src": "assets/web/pc102-hero.png",
           "alt": "Organizing the project around Know, Do, Become and design thinking",
           "caption": "Organizing the project around Know, Do, Become and design thinking"
         },
@@ -468,7 +468,7 @@ window.portfolioContent = {
         },
         {
           "type": "image",
-          "src": "assets/web/image26.jpg",
+          "src": "assets/web/pc102-team-work.png",
           "alt": "Coordinating the team’s work",
           "caption": "Coordinating the team’s work"
         },
@@ -478,7 +478,7 @@ window.portfolioContent = {
         },
         {
           "type": "image",
-          "src": "assets/web/image27.jpg",
+          "src": "assets/web/pc102-solution-prototype.png",
           "alt": "Moving from problem to prototype",
           "caption": "Moving from problem to prototype"
         },
