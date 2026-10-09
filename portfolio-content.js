@@ -314,7 +314,7 @@ window.portfolioContent = {
         },
         {
           "type": "image",
-          "src": "assets/web/image16.jpg",
+          "src": "assets/web/argossey-unit-component-system.png",
           "alt": "Applying a client-provided design system",
           "caption": "Applying a client-provided design system"
         },
@@ -324,7 +324,7 @@ window.portfolioContent = {
         },
         {
           "type": "image",
-          "src": "assets/web/image17.jpg",
+          "src": "assets/web/argossey-unit-3-build-checklist.png",
           "alt": "Building from detailed production requirements",
           "caption": "Building from detailed production requirements"
         },
