@@ -2963,8 +2963,10 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   }
 
   .project-page .project-intro-visual {
-    border: 0;
-    background: transparent;
+    border: 1px solid var(--line);
+    background: var(--paper-dark);
+    padding: clamp(12px, 2vw, 24px);
+    box-sizing: border-box;
   }
 
   .project-page .project-intro h1 {
@@ -2993,8 +2995,10 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
 }
 
 .project-page .project-intro-visual {
-  border: 0;
-  background: transparent;
+  border: 1px solid var(--line);
+  background: var(--paper-dark);
+  padding: clamp(12px, 2vw, 24px);
+  box-sizing: border-box;
 }
 
 @media (min-width: 701px) {
