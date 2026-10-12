@@ -3154,3 +3154,20 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
     object-fit: contain !important;
   }
 }
+
+/* Mobile homepage typography: keep the project hierarchy clear and readable. */
+@media (max-width: 700px) {
+  .project-grid .project-card h3 {
+    max-width: none;
+    font-size: clamp(1.6rem, 6vw, 1.85rem);
+    line-height: 1.08;
+    letter-spacing: -.035em;
+  }
+
+  .featured-copy h3 {
+    font-size: clamp(2rem, 8.5vw, 2.5rem);
+    line-height: 1.04;
+    letter-spacing: -.045em;
+  }
+}
+
