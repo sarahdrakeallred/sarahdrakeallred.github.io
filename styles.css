@@ -3171,3 +3171,36 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   }
 }
 
+
+
+/* Mobile project overview: align every section block to the same left edge. */
+@media (max-width: 700px) {
+  .project-page .intro-block,
+  .project-page .intro-block:not(:first-child) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Use a consistent, monochrome arrow icon across portfolio links. */
+.link-arrow {
+  display: inline-block;
+  width: .9em;
+  height: .9em;
+  margin-left: .4em;
+  vertical-align: -.08em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform .2s ease;
+  flex: none;
+}
+
+.header-link:hover .link-arrow,
+.text-link:hover .link-arrow,
+.project-link:hover .link-arrow,
+.site-footer-links a:hover .link-arrow {
+  transform: translateX(2px);
+}
