@@ -3198,6 +3198,18 @@ h1 em, h2 em, .hero-role em { color: var(--ink); }
   flex: none;
 }
 
+.control-arrow {
+  display: block;
+  width: 1em;
+  height: 1em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex: none;
+}
+
 .header-link:hover .link-arrow,
 .text-link:hover .link-arrow,
 .project-link:hover .link-arrow,
